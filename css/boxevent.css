@@ -1,0 +1,23 @@
+/*ANCHOR MOBILE*/
+.boxevent {
+    display: flex;
+    flex: 1 1 300px;
+    /* width: 1200px; */
+    height: 600px;
+    border: solid 1px red;
+}
+.gridm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 186px);
+    
+}
+.gridm >*{
+   background: green;
+   border: solid 1px black;
+    gap:0.5rem;
+}
+.gridd{
+    
+    height: 50px;
+    background: red;
+}

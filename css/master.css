@@ -1,0 +1,297 @@
+/*ANCHOR GOOGLE-FONTS*/
+/*Installation police via CDN*/
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Fredericka+the+Great&family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+:root {
+    --bleu1: radial-gradient(circle, rgb(13, 16, 112) 36%, rgba(13,16,112,1) 100%);
+    --primary: #f8ba3486;
+    --light: #f5f5f5;
+    --dark: #090018;
+    --white: #b8b4b48f;
+    --header-height: 75px;
+    --dombgcolor: rgb(29, 31, 31);
+    /*vh viewport height, 6% de la hauteur du viewport, changement dynamique de la hauteur du footer et du header*/
+}
+
+* {
+
+    box-sizing: border-box;
+
+    /* inclu le padding et la bordure dans la taille des boîtes */
+
+    /* border: 1px dotted var(--white); */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+img,video {
+    width: 100%;
+    
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1740px;
+    font-size: large;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #f5f5f7;
+    
+}
+
+.main-header,
+.main-footer {
+    min-height: var(--header-height);
+    background: var(--bleu1);
+    color: var(--white);
+    
+}
+aside {
+    flex: 1 1 150px;
+    background-image: url('../images/bg.jpg');
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    max-width: min-content;
+    background-size: 120%;
+    background-color: #f5f5f7;
+    /*margin-top: 1200px; */
+}
+
+.main-footer{
+    z-index: 0;
+    position: sticky;
+    box-shadow: 0px -3px 13px -5px rgb(13, 16, 112);
+    
+}
+
+main {
+    min-height: calc(100vh - 2 * var(--header-height));
+    /*la main a un minimum de 100vh-200px mais peut s'agrandir */
+    flex: 2 1 470px;
+    
+}
+.bgm {
+    background-image: url('../images/bodybg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: #f5f5f5;
+    
+}
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fredericka the Great', cursive;
+}*/
+
+h2 {
+    font-family: 'Barrio', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 1rem 0;
+}
+
+blockquote {
+    display: block;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding: 0.5rem;
+    background-color: var(--light);
+}
+
+blockquote i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+/*ANCHOR */
+.inline-block {
+    display: inline-block;
+}
+
+.relative {
+    position: relative;
+}
+
+/*ANCHOR FLEX-CONTAINER*/
+
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+.f-wraprr{
+    flex-wrap: wrap-reverse;
+}
+
+.g-1 {
+    gap: 1rem;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/*ANCHOR FLEX-ITEMS*/
+/*ANCHOR SIZING*/
+.f-s {
+    flex: 1 1 120px;
+}
+
+.f-m {
+    flex: 1 1 300px;
+}
+.f-l{
+    flex: 1 1 400px; 
+}
+/*ANCHOR SPACING*/
+.p-1 {
+    padding: 1rem;
+}
+.my-4{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.mx {
+    margin-left: 1.5rem;
+}
+.mauto{
+    margin: auto;
+}
+/*ANCHOR TYPO*/
+.txt-ac {
+    text-align: center;
+}
+
+.txt-ar{
+    text-align: right;
+}
+/*ANCHOR COMPONENTS*/
+
+.main-header{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+    max-width: 1740px;
+    box-shadow: 0px 3px 13px -5px rgb(13, 16, 112);
+    
+}
+
+.menu__link {
+    display: inline-block;
+    /*change de line à block, zone clickable plus grande*/
+    text-decoration: none;
+    color: var(--white);
+    transition: color 500ms;
+}
+
+.menu__link:hover {
+    color: var(--primary);
+
+}
+
+.sm__link {
+    text-decoration: none;
+    color: var(--dark);
+    padding: 1rem;
+}
+
+.card {
+    margin-top: 16px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.41);
+    position: sticky;
+    top: calc(var(--header-height) + 20px);
+    background-color:var(--white);
+
+}
+
+.card__img {
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(50%);
+    margin: auto;
+}
+
+.red-square {
+    background-color: #348af85e;
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    left: 8px;
+    bottom: 14px;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgb(13, 79, 149), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-container{
+    margin-top: var(--header-height);
+}
+.shadow {
+    box-shadow: 0 4px 8px 0 rgb(238, 6, 6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*ANCHOR Parents grille*/
+.form-contact {
+    width:100%;
+    display: grid;
+    grid-template-areas:"nom nom prenom prenom"
+                        "email email tel tel"
+                        "subject subject subject subject"
+                        "message message message message"
+                        ". button button .";
+    gap: 1rem;
+}
+/*ANCHOR Enfants grille*/
+.form-contact__item--prenom{
+    grid-area: prenom;
+}
+.form-contact__item--nom{
+    grid-area: nom;
+}
+.form-contact__item--email{
+    grid-area: email;
+}
+.form-contact__item--tel{
+    grid-area: tel;
+}
+.form-contact__item--subject{
+    grid-area: subject;
+}
+.form-contact__item--message{
+    grid-area: message;
+}
+.form-contact__item--button{
+    grid-area: button;
+}
+.form-contact__item > *{
+    /*> selectionne les enfants directs*/
+    width: 100%;
+}
