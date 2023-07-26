@@ -38,10 +38,16 @@ body {
     background-color: #f5f5f7;
     
 }
+.titreh1{
+    min-height: calc(12% + -28vw);
+    padding-top: 15%;
+    padding-bottom: 21%;
+}
+
 .type1{
     overflow: hidden;
     border-right: .10em solid rgba(8, 8, 8, 0);
-    font-size: calc(1rem + 1.5vw);
+    font-size: calc(1rem + 1vw);
     width: 0;
     white-space: nowrap;
     animation:
@@ -49,10 +55,25 @@ body {
         blink .5s infinite;
         animation-delay: 2s;
 }
+.type2{
+    overflow: hidden;
+    border-right: .10em solid rgba(8, 8, 8, 0);
+    font-size: calc(1rem + 1vw);
+    width: 0;
+    white-space: nowrap;
+    animation:
+        typingrev 2s steps(50, end) backwards,
+        blink .5s infinite;
+        animation-delay: 6s;
+}
 
 @keyframes typing {
     from { width: 0 }
     to { width: 100%}
+  }
+  @keyframes typingrev {
+    from { width: 100% }
+    to { width: 0}
   }
   @keyframes blink {
       From { border-color: rgb(8, 8, 8); }
