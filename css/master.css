@@ -38,6 +38,38 @@ body {
     background-color: #f5f5f7;
     
 }
+.type1{
+    overflow: hidden;
+    border-right: .10em solid rgb(8, 8, 8);
+    font-size: 2.5rem;
+    width: 0;
+    white-space: nowrap;
+    animation:
+        typing 2s steps(50, end) forwards;
+        /* blink .8s 10; */
+    /* height: 50px; */
+}
+.type2{
+    overflow: hidden;
+    border-right: .10em solid rgb(8, 8, 8);
+    font-size: 2.5rem;
+    width: 0;
+    white-space: nowrap;
+    animation:
+        typing 4s steps(40, end) forwards,
+        blink .2s 20;
+    /* height: 50px; */
+    animation-delay: 2s;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+      From { border-color: rgb(8, 8, 8); }
+        to { border-color: transparent }
+  }
+  
 
 .main-header,
 .main-footer {
