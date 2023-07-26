@@ -22,22 +22,17 @@ include './inc/multilang.php';
     <div class="main-container d-flex f-wrap g-1">
         <?php include("./aside.php") ?>
         <main class="p-1 bgm">
-            <div class="" style="height : 500px">
-                <div class="inline-block">
-
-                    <h1><?php echo $lang['HEADER_TITLE']; ?>
-                        <br></br>
-                        <div class="inline-block">
-                            <div class="type1">I'm a full stack Web developper ! </div>
-                        </div>
-                        </br>
-                        <div class="inline-block">
-                            <div class="type2">I'm a full stack Web developper ! </div>
-                        </div>
-                    </h1>
+            <div class="text-center" style="min-height : 20%; padding-top : 12%">
+                <h1><?php echo $lang['HEADER_TITLE']; ?></h1>
+               
+                    <div class="inline-block">
+                        <div class="type1">I'm a full stack Web developper ! </div>
+                    </div>
+                
 
 
-                </div>
+
+
             </div>
             <p>Ex ad laborum enim deserunt excepteur nulla duis excepteur adipisicing deserunt fugiat in.</p>
             <div class="d-flex g-1">
