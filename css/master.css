@@ -43,17 +43,24 @@ body {
     padding-top: 15%;
     padding-bottom: 21%;
 }
+span::before{ 
+    content: "I'm a full stack Web developper !";
+    animation: contentsw 8s infinite;
+    animation-delay: 4s;
+}
 
 .type1{
+    
     overflow: hidden;
-    border-right: .10em solid rgba(8, 8, 8, 0);
+    border-right: .10em solid rgba(0, 0, 0, 0);
     font-size: calc(1rem + 1vw);
     width: 0;
     white-space: nowrap;
     animation:
-        typing 2s steps(50, end) forwards,
-        blink .5s infinite;
-        animation-delay: 2s;
+       
+        blink .5s infinite,
+        typing 4s steps(50, end) forwards 2;
+        animation-delay: 3s;
 }
 .type2{
     overflow: hidden;
@@ -68,16 +75,22 @@ body {
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100%}
+    from { width: 0 }/*pause dans l'animation*/
+    25%{ width:100% }
+    50%{ width:100% }
+    75%{ width:0 }
+    to { width:0 } 
   }
-  @keyframes typingrev {
-    from { width: 100% }
-    to { width: 0}
+  @keyframes contentsw {
+    0% { content: "I'm a full stack Web developper ! " }
+    25% { content: "I'm a full stack Web developper ! " }
+    50% { content: "Feel free to contact me ! " }
+    75% { content: "Feel free to contact me ! " }
+    100% { content: "I'm a full stack Web developper ! " }
   }
   @keyframes blink {
-      From { border-color: rgb(8, 8, 8); }
-        to { border-color: rgba(255, 255, 255, 0) }
+      From { border-right-color: rgb(0, 0, 0); }
+        to { border-right-color: rgba(0, 0, 0, 0) }
   }
   
 
@@ -109,7 +122,7 @@ aside {
 main {
     min-height: calc(100vh - 2 * var(--header-height));
     flex: 2 1 470px;
-    /*le main a un minimum de 100vh-200px mais peut s'agrandir */
+    /*le main a un minimum de 100vh-2*la hauteur (header+footer) et peut s'agrandir */
     
 }
 .bgm {
@@ -280,7 +293,7 @@ blockquote i {
     margin: auto;
 }
 
-.red-square {
+.blue-square {
     background-color: #348af85e;
     position: absolute;
     top: 12px;

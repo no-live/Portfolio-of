@@ -25,7 +25,7 @@ include './inc/multilang.php';
             <div class="text-center titreh1">
                 <h1><?php echo $lang['HEADER_TITLE']; ?></h1>
                 <div class="inline-block">
-                    <div class="type1 type2">I'm a full stack Web developper ! </div>
+                    <div class="type1"><span></span></div>
                 </div>
             </div>
             <p>Ex ad laborum enim deserunt excepteur nulla duis excepteur adipisicing deserunt fugiat in.</p>

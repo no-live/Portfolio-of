@@ -2,7 +2,7 @@
     <section class="card d-flex f-wrap g-1">
         <div class="card__item card__item--left f-s relative d-flex">
             <img class="card__img p-4" src="./images/profil.png" alt="profil">
-            <div class="red-square">
+            <div class="blue-square">
             </div>
         </div>
         <div class="card__item card__item--right f-s p-1">

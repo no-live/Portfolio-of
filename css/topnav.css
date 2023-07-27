@@ -121,7 +121,6 @@
     background: url(../images/backgroundlog--ok.png);
     background-clip: content-box;
 
-    
 }
 
 .backgroundlog--imgout {
@@ -129,7 +128,6 @@
     background: url(../images/backgroundlog--nok.png);
     background-clip: content-box;
 
-    
 }
 .main-header__lang {
    
@@ -169,7 +167,6 @@
     background-repeat: no-repeat;
 
 }
-
 
 .btn {
     display: inline-block;
