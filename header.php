@@ -1,4 +1,4 @@
-<header class="main-header p-1 d-flex f-wrap jc-sb ai-c rounded-top">
+<header class="main-header p-1 d-flex f-wrap jc-sb ai-c">
 
     <div class="main-header__button btn">
         <i class="fas fa-bars"></i>

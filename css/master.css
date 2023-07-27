@@ -32,7 +32,7 @@ img,video {
 
 body {
     margin: 0 auto;
-    max-width: 1740px;
+    /*max-width: 1740px;*/
     font-size: large;
     font-family: 'Nanum Gothic', sans-serif;
     background-color: #f5f5f7;
@@ -240,7 +240,7 @@ blockquote i {
     top:0;
     width:100%;
     z-index: 1;
-    max-width: 1740px;
+    /*max-width: 1740px;*/
     box-shadow: 0px 3px 13px -5px rgb(13, 16, 112);
     
 }
