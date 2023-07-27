@@ -1,6 +1,6 @@
 <?php
 session_start();
-//session_unset();
+session_unset();
 include './inc/multilang.php';
 ?>
 <!DOCTYPE html>

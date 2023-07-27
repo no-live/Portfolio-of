@@ -8,7 +8,7 @@ if (isset($_GET['lang'])) {
     $lang = $_SESSION['lang'];
 } else {
     $lang = 'FR';
-    var_dump($lang);
+    //var_dump($lang);
 }
  switch ($lang) {
     case 'FR' :
