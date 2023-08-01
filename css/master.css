@@ -45,8 +45,8 @@ body {
 }
 span::before{ 
     content: "I'm a full stack Web developper !";
-    animation: contentsw 8s infinite;
-    animation-delay: 4s;
+    animation: contentsw 8s 2;
+    animation-delay: 3s;
 }
 
 .type1{
@@ -58,35 +58,29 @@ span::before{
     white-space: nowrap;
     animation:
        
-        blink .5s infinite,
-        typing 4s steps(50, end) forwards 2;
+        blink .5s 52,
+        typing 8s steps(50, end) forwards 2;
         animation-delay: 3s;
-}
-.type2{
-    overflow: hidden;
-    border-right: .10em solid rgba(8, 8, 8, 0);
-    font-size: calc(1rem + 1vw);
-    width: 0;
-    white-space: nowrap;
-    animation:
-        typingrev 2s steps(50, end) backwards,
-        blink .5s infinite;
-        animation-delay: 6s;
 }
 
 @keyframes typing {
     from { width: 0 }/*pause dans l'animation*/
+    12%{ width:100% }
     25%{ width:100% }
-    50%{ width:100% }
-    75%{ width:0 }
-    to { width:0 } 
+    37%{ width:0 }
+    50%{ width:0 }
+    62%{ width:100% }
+    75%{ width:100% }
+    88%{ width:0 } 
+    to { width:100% } 
   }
   @keyframes contentsw {
     0% { content: "I'm a full stack Web developper ! " }
-    25% { content: "I'm a full stack Web developper ! " }
+    25% {content: "I'm a full stack Web developper ! " }
     50% { content: "Feel free to contact me ! " }
     75% { content: "Feel free to contact me ! " }
-    100% { content: "I'm a full stack Web developper ! " }
+    /* 88% { content: "I'm a full stack Web developper !" } */
+    100% { content: "I'm a full stack Web developper !" }
   }
   @keyframes blink {
       From { border-right-color: rgb(0, 0, 0); }

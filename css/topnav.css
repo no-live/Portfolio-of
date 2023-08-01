@@ -142,14 +142,21 @@
     height: 25px;
     border: solid 2px var(--primary);
     border-radius: 50%;
+    
 }
-.header-btnlang--fr:hover {
+
+.header-btnlang--fr:hover {  
     background: url(../images/btn-eng.png);
     background-size: contain;
     background-repeat: no-repeat;
+    transition: transform 0.5s;
+    transform : rotate(1turn);
 
 }
-.header-btnlang--eng:hover {
+
+.header-btnlang--eng:hover {  
+    transition: transform 0.5s;
+    transform : rotate(1turn);
     background: url(../images/btn-fr.png);
     background-size: contain;
     background-repeat: no-repeat;

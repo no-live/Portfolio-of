@@ -5,7 +5,7 @@ include './inc/multilang.php';
 ?>
 <!DOCTYPE html>
 
-<html lang="FR">
+<html lang="<?php echo $lang['LANG'];?>">
 
 
 <head>
