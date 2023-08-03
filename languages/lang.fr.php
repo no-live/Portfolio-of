@@ -21,12 +21,10 @@ $lang['MENU_PROJECTS'] = 'Projets';
 //$lang['MENU_CONTACT_US'] = 'Contact Us';
 $lang['MENU_CONTACT'] = 'Contact';
 //$lang['MENU_SITE_MAP'] = 'Site Map';
-$lang['MENU_CALL'] = 'Appelez-moi';
+$lang['MENU_CALL'] = 'Contactez-moi';
 
 // Aside
-$lang['ASIDE'] = 'Passionné de nouvelles technologies, je suis ouvert à tous projets! Contactez moi👇👇👇!';
- //'Passionate about new technologies, 
-//I am open to all projects. Contact me';
+$lang['ASIDE'] = 'Passionné de nouvelles technologies, je suis ouvert à tous projets! Contactez moi 👇👇👇 ! ';
 
 // Contenu
 $lang['ARTICLE_1'] = '01 FR 🤘 Sunt exercitation fugiat ullamco aliquip.Ad et amet elit aute fugiat non in. Irure ullamco ad reprehenderit 

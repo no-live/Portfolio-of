@@ -10,17 +10,18 @@
         <a class="menu__link p-1" href="./contact.php">Contact</a>
     </nav>
     
-    <div class="header-callbtn">
+    <div class="header-callbtn d-flex">
         <!--<div class="main-header__toggle btnlight btn shake">
             <i class="fas fa-skull"></i>  
         </div>-->
-        <a class="btn p-1 m-1 shake" href="#"><i class="fas fa-phone-volume"></i><?php echo $lang['MENU_CALL']; ?></a>
+        <a class="btn p-1 m-1 shake" href="#"><i class="far fa-envelope"></i> <?php echo $lang['MENU_CALL']; ?></a>
     </div>
     <!--<div class="main-header__logo">
         <a class="bttn backgroundlog backgroundlog--imgout" href="#">
            <img class="main-header__logo-img anima" src="./images/logo.svg" alt="logo-profil">
         </a>
     </div>-->
+    
     <?php 
     if (!isset($_SESSION['lang']) or ($_SESSION['lang']) == 'FR' ){
         ?>
@@ -29,7 +30,7 @@
             <input type="hidden" name="lang" value="EN" />
             <input type="submit" class="header-btnlang header-btnlang--fr" value=""/>
         </form>
-    <!--<img class="" src="" alt="lang"> href="index.php?lang=EN" -->
+    
     </div>
     <?php } else {
         ?>
