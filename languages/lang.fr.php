@@ -40,4 +40,17 @@ $lang['ARTICLE_4'] = '04 FR 🤘 Ut qui adipisicing est cupidatat.Aute irure eiu
 $lang['ARTICLE_5'] = '05 FR 🤘 Ut qui adipisicing est cupidatat.Cupidatat dolor eiusmod duis fugiat fugiat eiusmod nisi excepteur veniam mollit do laboris ipsum adipisicing.';
 $lang['ARTICLE_6'] = '06 FR 🤘 Ut qui adipisicing est cupidatat.Nulla nulla do adipisicing exercitation laborum voluptate.';
 
+//Formulaire
+
+$lang['FORM_NAME'] = 'Nom';
+$lang['FORM_NAME_HOLD'] = 'Entrez votre nom';
+$lang['FORM_MAIL'] = 'Email';
+$lang['FORM_MAIL_HOLD'] = 'Entrez votre email';
+$lang['FORM_DROP'] = 'L\'option qui décrit le mieux votre rôle actuel?';
+$lang['FORM_DROP_OPTION0'] = 'Sélectionnez votre rôle actuel';
+$lang['FORM_DROP_OPTION1'] = 'Etudiant';
+$lang['FORM_DROP_OPTION2'] = 'Professionel';
+$lang['FORM_DROP_OPTION3'] = 'Ne préfère pas répondre';
+$lang['FORM_DROP_OPTION4'] = 'Bot';
+
 ?>
