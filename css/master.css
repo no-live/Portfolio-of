@@ -46,7 +46,7 @@ body {
     padding-top: 15%;
     padding-bottom: 21%;
 }
-span::before{ 
+span1::before{ 
     content: "End______________larrrrggggeee_________!";
     animation: contentsw 20s 4;
     animation-delay: 3s;

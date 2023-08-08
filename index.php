@@ -26,7 +26,7 @@ include './inc/multilang.php';
                 <h1><?php echo $lang['HEADER_TITLE']; ?></h1>
             </div>
             <div class="inline-block rounded">
-                <div class="type1"><span></span></div>
+                <div class="type1"><span1></span1></div>
             </div>
             <p>Ex ad laborum enim deserunt excepteur nulla duis excepteur adipisicing deserunt fugiat in.</p>
             <div class="d-flex g-1">

@@ -11,9 +11,6 @@
     </nav>
     
     <div class="header-callbtn d-flex">
-        <!--<div class="main-header__toggle btnlight btn shake">
-            <i class="fas fa-skull"></i>  
-        </div>-->
         <a class="btn p-1 m-1 shake" href="./contact.php?lang=<?=($lang['LANG']);?>"><i class="far fa-envelope"></i> <?php echo $lang['MENU_CALL']; ?></a>
     </div>
     <!--<div class="main-header__logo">

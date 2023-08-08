@@ -25,8 +25,8 @@ include './inc/multilang.php';
                 <h1>Formulaire de contact</h1>
                 <p id="description"><em>Demandes en un formulaire</em></p>
             </div>
-            <form id="formulaire_contact" method="POST">
-                <p><em>* Champs obligatoires</em></p>
+            <form id="formulaire_contact" method="POST"> <p><span><em>*<?php echo $lang['FORM_FORM']; ?>ns</em></span></p>
+                
                 <div class="group">
                     <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>*</label>
                     <input id="name" class="form" type="texte" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" required="">

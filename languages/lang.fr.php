@@ -42,6 +42,7 @@ $lang['ARTICLE_6'] = '06 FR 🤘 Ut qui adipisicing est cupidatat.Nulla nulla do
 
 //Formulaire
 
+$lang['FORM_FORM'] = 'Champs obligatoires';
 $lang['FORM_NAME'] = 'Nom';
 $lang['FORM_NAME_HOLD'] = 'Entrez votre nom';
 $lang['FORM_MAIL'] = 'Email';

@@ -42,6 +42,8 @@ $lang['ARTICLE_6'] = '06 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Nulla
 
 //Formulaire
 
+
+$lang['FORM_FORM'] = 'Required fields';
 $lang['FORM_NAME'] = 'Name';
 $lang['FORM_NAME_HOLD'] = 'Enter your name';
 $lang['FORM_MAIL'] = 'Email';
