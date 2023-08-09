@@ -5,13 +5,13 @@
     </div>
     
     <nav class="menu menu--header d-flex">
-        <a class="menu__link p-1" href="./index.php?lang=<?=($lang['LANG']);?>"><?php echo $lang['MENU_HOME']; ?></a>
-        <a class="menu__link p-1" href="./projets.php?lang=<?=($lang['LANG']);?>"><?php echo $lang['MENU_PROJECTS']; ?></a>
-        <a class="menu__link p-1" href="./contact.php?lang=<?=($lang['LANG']);?>"><?php echo $lang['MENU_CONTACT']; ?></a>
+        <a class="menu__link p-1" href="./index.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_HOME']; ?></a>
+        <a class="menu__link p-1" href="./projets.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_PROJECTS']; ?></a>
+        <a class="menu__link p-1" href="./contact.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_CONTACT']; ?></a>
     </nav>
     
     <div class="header-callbtn d-flex">
-        <a class="btn p-1 m-1 shake" href="./contact.php?lang=<?=($lang['LANG']);?>"><i class="far fa-envelope"></i> <?php echo $lang['MENU_CALL']; ?></a>
+        <a class="btn p-1 m-1 shake" href="./contact.php?lang=<?=($lang['LANG']);?>">&nbsp<i class="far fa-envelope">&nbsp</i>&nbsp<?php echo $lang['MENU_CALL']; ?>&nbsp</a>
     </div>
     <!--<div class="main-header__logo">
         <a class="bttn backgroundlog backgroundlog--imgout" href="#">

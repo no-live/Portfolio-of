@@ -21,7 +21,7 @@ $lang['MENU_PROJECTS'] = 'Projects';
 //$lang['MENU_CONTACT_US'] = 'Contact Us';
 $lang['MENU_CONTACT'] = 'Contact';
 //$lang['MENU_SITE_MAP'] = 'Site Map';
-$lang['MENU_CALL'] = 'Mail-me';
+$lang['MENU_CALL'] = 'Contact me';
 // Aside
 $lang['ASIDE'] = 'Passionate about new technologies, I am open to all projects. Contact me 👇👇👇 ! ';
 
@@ -48,11 +48,16 @@ $lang['FORM_NAME'] = 'Name';
 $lang['FORM_NAME_HOLD'] = 'Enter your name';
 $lang['FORM_MAIL'] = 'Email';
 $lang['FORM_MAIL_HOLD'] = 'Enter your email';
-$lang['FORM_DROP'] = 'Wich option best describes your current role?';
-$lang['FORM_DROP_OPTION0'] = 'Select current role';
-$lang['FORM_DROP_OPTION1'] = 'Student';
-$lang['FORM_DROP_OPTION2'] = 'Professional';
+$lang['FORM_DROP'] = 'What is the subject of your resquest?';
+$lang['FORM_DROP_OPTION0'] = 'Select the subject of your request';
+$lang['FORM_DROP_OPTION1'] = 'Request for information';
+$lang['FORM_DROP_OPTION2'] = 'Project proposal';
 $lang['FORM_DROP_OPTION3'] = 'Prefer not to say';
 $lang['FORM_DROP_OPTION4'] = 'Bot';
+$lang['FORM_COMMENT'] = 'Leave a comment';
+$lang['FORM_COMMENT_LABEL'] = 'Enter your comment here';
+$lang['FORM_SUBMIT'] = 'Submit';
+
+
 
 ?>

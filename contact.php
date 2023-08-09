@@ -25,46 +25,36 @@ include './inc/multilang.php';
                 <h1>Formulaire de contact</h1>
                 <p id="description"><em>Demandes en un formulaire</em></p>
             </div>
-            <form id="formulaire_contact" method="POST"> <p><span><em>*<?php echo $lang['FORM_FORM']; ?>ns</em></span></p>
-                
+            
+            <form id="formulaire_contact" method="POST">
                 <div class="group">
-                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>*</label>
+                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>&nbsp*</label>
                     <input id="name" class="form" type="texte" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" required="">
                 </div>
-
+                <div class="group2">
+                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>&nbsp*</label>
+                    <input id="name" class="form" type="texte" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" required="">
+                </div>
+                
                 <div class="group">
-                    <label id="email-label" for="email"><?php echo $lang['FORM_MAIL']; ?>*</label>
+                    <label id="email-label" for="email"><?php echo $lang['FORM_MAIL']; ?>&nbsp*</label>
                     <input id="email" class="form" type="email" name="email" placeholder="<?php echo $lang['FORM_MAIL_HOLD']; ?>" required="">
                 </div>
 
                 
                 <div class="group1">
-                    <p><?php echo $lang['FORM_DROP']; ?>*</p>
-                    <label id="dropdown-label" for="list"></label>
+                    
+                    <label id="dropdown-label" for="list"><?php echo $lang['FORM_DROP']; ?>&nbsp*</label>
                     <select id="dropdown" class="form" type="texte" name="list" required="">
-                        <option disabled="" selected="" value=""><?php echo $lang['FORM_DROP_OPTION0']; ?></option>
-                        <option value="student"><?php echo $lang['FORM_DROP_OPTION1']; ?></option>
-                        <option value="job"><?php echo $lang['FORM_DROP_OPTION2']; ?></option
+                        <!-- <option disabled="" selected="" value=""><?php echo $lang['FORM_DROP_OPTION0']; ?></option> -->
+                        <option value="info"><?php echo $lang['FORM_DROP_OPTION1']; ?></option>
+                        <option value="job"><?php echo $lang['FORM_DROP_OPTION2']; ?></option>
                         <option value="preferNo"><?php echo $lang['FORM_DROP_OPTION3']; ?></option>
                         <option value="other"><?php echo $lang['FORM_DROP_OPTION4']; ?></option>
                     </select>
+                    <cite style="font-size: smaller;"><em>*&nbsp<?php echo $lang['FORM_FORM']; ?></em></cite>
                 </div>
-                <!-- <div class="group">
-                    <p>Would you recommend FreeCodeCamp to a friend?</p>
-                    <label>
-                        <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">
-                        Definitely
-                    </label>
-                    <label>
-                        <input name="user-recommend" value="maybe" type="radio" class="input-radio">
-                        Maybe
-                    </label>
-                    <label>
-                        <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
-                        Not sure
-                    </label>
-                </div> -->
-                <div class="group1">
+                <div class="group2">
                     <p>Which option best describes your current role?</p>
                     <select id="most-like" name="mostLike" class="form" required="">
                         <option disabled="" selected="" value="">Select an option</option>
@@ -74,7 +64,7 @@ include './inc/multilang.php';
                         <option value="openSource">Open Source</option>
                     </select>
                 </div>
-                <div class="group">
+                <div class="group2">
                     <p>What would you like to see improved? (Check all that apply)</p>
                     <label>
                         <input name="fav" value="Front-end Projects" type="checkbox">
@@ -125,13 +115,14 @@ include './inc/multilang.php';
                         Additional Courses
                     </label>
                 </div>
+                
                 <div class="group">
-                    <p>Any comments or suggestions?</p>
-                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+                    <label for="comment"><?php echo $lang['FORM_COMMENT']; ?></label>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="<?php echo $lang['FORM_COMMENT_LABEL'];?>"></textarea>
                 </div>
                 <div class="group1">
                     <button type="submit" id="submit" class="submit-button">
-                        Submit
+                        <?php echo $lang['FORM_SUBMIT'];?>
                     </button>
                 </div>
 

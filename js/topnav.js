@@ -36,7 +36,17 @@ function navbtn1(x) {
 navbtn1(x)  //Lance la fonction
 x.addEventListener('change', navbtn1) //Reste à l'écoute d'un changement de x (min-width = 760px)
 
-
+const asidecenter = document.getElementById("sideleft") 
+var x = window.matchMedia("(min-width: 760px)");
+function asidesmall(x) {
+    if (x.matches) {
+        asidecenter.classList.remove('mauto');
+    } else {
+        asidecenter.classList.add('mauto');
+}
+}
+asidesmall(x)
+x.addEventListener('change', asidesmall)
 // const actionButton2 = document.querySelector('.bttn');
 // const move = document.querySelector('.main-header__logo-img');
 // const move1 = document.querySelector('.backgroundlog');

@@ -47,11 +47,14 @@ $lang['FORM_NAME'] = 'Nom';
 $lang['FORM_NAME_HOLD'] = 'Entrez votre nom';
 $lang['FORM_MAIL'] = 'Email';
 $lang['FORM_MAIL_HOLD'] = 'Entrez votre email';
-$lang['FORM_DROP'] = 'L\'option qui décrit le mieux votre rôle actuel?';
-$lang['FORM_DROP_OPTION0'] = 'Sélectionnez votre rôle actuel';
-$lang['FORM_DROP_OPTION1'] = 'Etudiant';
-$lang['FORM_DROP_OPTION2'] = 'Professionel';
+$lang['FORM_DROP'] = 'L\'objet de votre demande?';
+$lang['FORM_DROP_OPTION0'] = 'Sélectionnez l\'objet de votre demande';
+$lang['FORM_DROP_OPTION1'] = 'Demande d\'informations';
+$lang['FORM_DROP_OPTION2'] = 'Proposition de projet';
 $lang['FORM_DROP_OPTION3'] = 'Ne préfère pas répondre';
 $lang['FORM_DROP_OPTION4'] = 'Bot';
+$lang['FORM_COMMENT'] = 'Laissez un commentaire';
+$lang['FORM_COMMENT_LABEL'] = 'Entrez votre commentaire ici';
+$lang['FORM_SUBMIT'] = 'Envoyez';
 
 ?>
