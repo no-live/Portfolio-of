@@ -131,6 +131,7 @@ main {
     min-height: calc(100vh - 2 * var(--header-height));
     flex: 2 1 470px;
     /*le main a un minimum de 100vh-2*la hauteur (header+footer) et peut s'agrandir */
+    z-index: 1;
     
 }
 .bgm {
@@ -288,7 +289,7 @@ blockquote i {
 }
 
 .card {
-    margin-top: 16px;
+    /* margin-top: 16px; */
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.41);
     position: sticky  !important;
     top: calc(var(--header-height) + 20px);
@@ -329,7 +330,7 @@ blockquote i {
 .sliding-background{
     
     position: absolute;
-    top:77px;
+    top:-575px;
     background: url("../images/bg.jpg")repeat;
     background-size: contain;
     background-repeat: repeat;
@@ -351,6 +352,7 @@ blockquote i {
 
 .main-container{
     margin-top: var(--header-height);
+    background-color: #f5f5f5;
 }
 .shadow {
     box-shadow: 0 4px 8px 0 rgb(238, 6, 6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

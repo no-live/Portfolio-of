@@ -2,5 +2,5 @@
      <p class="txt-ac"> <?php echo ($lang['LANG'])?> <small>© Copyright - Portfolio - 2023</small></p>
 </footer>
 <script src="./js/topnav.js"></script>
-<script src="./js/background.js"></script>
-<script src="./js/tgdark.js"></script>
+<!-- <script src="./js/background.js"></script> -->
+<!-- <script src="./js/tgdark.js"></script> -->

@@ -16,11 +16,11 @@ include './inc/multilang.php';
     <meta name="description" content="<?php echo $lang['SITE_NAME']; ?>">
 </head>
 
-<body class="bodyc">
+<body>
     <?php include("./header.php") ?>
 
     <div class="main-container d-flex f-wrap g-1">
-        <main id="main">
+        <main id="main" class="bodyc">
             <div id="title">
                 <h1>Formulaire de contact</h1>
                 <p id="description"><em>Demandes en un formulaire</em></p>
