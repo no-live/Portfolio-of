@@ -1,6 +1,6 @@
 .bodyc{
 
-    background-image:linear-gradient(to bottom, rgba(0, 71, 136,0.2), rgba(0, 56, 120,0.2)), url('../images/bodybg.jpg'); 
+    background-image:linear-gradient(to bottom, rgba(0, 70, 136, 0.096), rgba(0, 56, 120, 0.055)), url('../images/bodybg.jpg'); 
     background-repeat: no-repeat; 
     background-attachment:fixed;
     background-size: cover;
@@ -133,4 +133,14 @@ label{
     width:100%;
     border-radius: 6px;
     
+}
+.No-valid{
+    background: red !important;
+    
+}
+.Valid{
+    background: green !important;
+}
+.error{
+    border: 2px solid red;
 }
