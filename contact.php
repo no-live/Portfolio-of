@@ -27,38 +27,42 @@ include './inc/formcontrol.php';
                 <h1>Formulaire de contact</h1>
                 <p id="description"><em>Demandes en un formulaire</em></p>
             </div>
-            
-            <form id="formulaire_contact" method="POST" action="contact.php?lang=<?=($lang['LANG']);?>">
+
+            <form id="formulaire_contact" method="POST" action="contact.php?lang=<?= ($lang['LANG']); ?>">
                 <div class="group <?php echo !empty($nameError) ? 'error' : ''; ?>"> <!--//ajoute une classe 'error'-->
                     <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>&nbsp*</label>
-                    <input id="name" class="form <?php echo !empty($nameError) ? 'No-valid' : ''; ?>" type="texte" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>" >
+                    <input id="name" class="form <?php echo !empty($nameError) ? 'No-valid' : ''; ?>  " type="texte" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
                 </div>
                 <div class="group2">
                     <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>&nbsp*</label>
                     <input id="nickname" class="form" type="texte" name="nickname" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>">
                 </div>
-                
+
                 <div class="group <?php echo !empty($emailError) ? 'error' : ''; ?>">
                     <label id="email-label" for="email"><?php echo $lang['FORM_MAIL']; ?>&nbsp*</label>
-                    <input id="email" class="form <?php echo !empty($emailError) ? 'No-valid' : ''; ?>" type="email" name="email" placeholder="<?php echo $lang['FORM_MAIL_HOLD']; ?>"value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
+                    <input id="email" class="form <?php echo !empty($emailError) ? 'No-valid' : ''; ?>" type="email" name="email" placeholder="<?php echo $lang['FORM_MAIL_HOLD']; ?>" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
                 </div>
 
-                
+
                 <div class="group1 <?php echo !empty($dropError) ? 'error' : ''; ?>">
-                    
+
                     <label id="dropdown-label" for="drop"><?php echo $lang['FORM_DROP']; ?>&nbsp*</label>
-                    <select id="dropdown" class="form <?php echo !empty($dropError) ? 'No-valid' : ''; ?> <?php echo !empty($drop) ? 'Valid' : ''; ?>" name="drop" >
-                        <option selected="" value=""><?php echo $lang['FORM_DROP_OPTION0']; ?></option>
-                        <option value="info"><?php echo $lang['FORM_DROP_OPTION1']; ?></option>
-                        <option value="job"><?php echo $lang['FORM_DROP_OPTION2']; ?></option>
-                        <option value="preferNo"><?php echo $lang['FORM_DROP_OPTION3']; ?></option>
-                        <option value="other"><?php echo $lang['FORM_DROP_OPTION4']; ?></option>
+                    <select id="dropdown" class="form <?php echo !empty($dropError) ? 'No-valid' : ''; ?> <?php echo !empty($drop) ? 'Valid' : ''; ?>" name="drop">
+                        <option value=""><?php echo $lang['FORM_DROP_OPTION0']; ?></option>
+                        <option value="info" <?php
+                         if (isset($_POST['drop']) && ($_POST['drop'])=='info') echo 'selected=""'?>><?php echo $lang['FORM_DROP_OPTION1']; ?> </option>
+                        <option value="job" <?php
+                         if (isset($_POST['drop']) && ($_POST['drop'])=='job') echo 'selected=""' ; ?>><?php echo $lang['FORM_DROP_OPTION2']; ?></option>
+                        <option value="preferNo" <?php
+                         if (isset($_POST['drop']) && ($_POST['drop'])=='preferNo') echo 'selected=""' ; ?>><?php echo $lang['FORM_DROP_OPTION3']; ?></option>
+                        <option value="other" <?php
+                         if (isset($_POST['drop']) && ($_POST['drop'])=='other') echo 'selected=""' ; ?>><?php echo $lang['FORM_DROP_OPTION4']; ?></option>
                     </select>
                 </div>
                 <cite style="font-size: smaller;"><em>*&nbsp<?php echo $lang['FORM_FORM']; ?></em></cite>
                 <div class="group2">
                     <p>Which option best describes your current role?</p>
-                    <select id="most-like" name="mostLike" class="form" >
+                    <select id="most-like" name="mostLike" class="form">
                         <option disabled="" selected="" value="">Select an option</option>
                         <option value="challenges">Challenges</option>
                         <option value="projects">Projects</option>
@@ -117,21 +121,35 @@ include './inc/formcontrol.php';
                         Additional Courses
                     </label>
                 </div>
-                
+
                 <div class="group">
                     <label for="comment"><?php echo $lang['FORM_COMMENT']; ?></label>
-                    <textarea id="comments" class="input-textarea <?php echo !empty($commentError) ? 'No-valid' : ''; ?>" name="comment" placeholder="<?php echo $lang['FORM_COMMENT_LABEL'];?>" value="<?php echo isset($_POST['comment']) ? $_POST['comment'] : '' ?>"></textarea>
+                    <textarea id="comments" class="input-textarea <?php echo !empty($commentError) ? 'No-valid' : ''; ?>" name="comment" placeholder="<?php echo $lang['FORM_COMMENT_LABEL']; ?>" value="<?php echo isset($_POST['comment']) ? $_POST['comment'] : '' ?>"></textarea>
                 </div>
-                <div class="group1">
-                    <button type="submit" id="submit" class="submit-button">
-                        <?php echo $lang['FORM_SUBMIT'];?>
-                    </button>
-                </div>
-                    <p><?php echo $testretour ;?></p>
+                <?php
+                if (isset($valid)) {
 
+                ?>
+                    <div class="group1">
+                        <button type="submit" id="submit" class="submit-button">
+                            <?php echo $lang['FORM_SUBMIT']; ?>
+                        </button>
+                    </div>
+                <?php } else {
+                ?>
+                    <div class="group1">
+                        <button type="submit" id="submit" class="submit-button">
+                            <?php echo $lang['FORM_SUBMIT']; ?> RETOUR
+                        </button>
+                    </div>
+                <?php }
+                ?>
+                
+                <p><?php echo $testretour; ?></p>
+                
             </form>
     </div>
-   
+
     </main>
     <?php include("./footer.php") ?>
 

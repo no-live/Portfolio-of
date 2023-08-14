@@ -7,7 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
     $emailError = '';
     $dropError = '';
     $commentError = '';
-    $drop = null;
     $name = htmlentities(trim($_POST['name']));
     $nickname = htmlentities(trim($_POST['nickname']));
     $email = htmlentities(trim($_POST['email']));
