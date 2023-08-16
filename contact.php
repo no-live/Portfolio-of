@@ -31,16 +31,25 @@ include './inc/formcontrol.php';
             <form id="formulaire_contact" method="POST" action="contact.php?lang=<?= ($lang['LANG']); ?>">
                 <div class="group <?php echo !empty($nameError) ? 'error' : ''; ?>"> <!--//ajoute une classe 'error'-->
                     <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>&nbsp*</label>
-                    <input id="name" class="form <?php echo !empty($nameError) ? 'No-valid' : ''; ?>  " type="texte" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
+                    <input id="name" class="form <?php echo !empty($nameError) ? 'No-valid' : ''; ?>  " type="text" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
+                    <?php if (!empty($nameError)) : ?>
+                            <span class="help-inline"><?php echo $nameError; ?></span>
+                        <?php endif; ?>
                 </div>
                 <div class="group2">
                     <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?>&nbsp*</label>
-                    <input id="nickname" class="form" type="texte" name="nickname" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>">
+                    <input id="nickname" class="form" type="text" name="nickname" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>">
+                    <?php if (!empty($nickError)) : ?>
+                            <span class="help-inline"><?php echo $nickError; ?></span>
+                        <?php endif; ?>
                 </div>
 
                 <div class="group <?php echo !empty($emailError) ? 'error' : ''; ?>">
                     <label id="email-label" for="email"><?php echo $lang['FORM_MAIL']; ?>&nbsp*</label>
-                    <input id="email" class="form <?php echo !empty($emailError) ? 'No-valid' : ''; ?>" type="email" name="email" placeholder="<?php echo $lang['FORM_MAIL_HOLD']; ?>" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
+                    <input id="email" class="form <?php echo !empty($emailError) ? 'No-valid' : ''; ?>" type="text" name="email" placeholder="<?php echo $lang['FORM_MAIL_HOLD']; ?>" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
+                    <?php if (!empty($emailError)) : ?>
+                            <span class="help-inline"><?php echo $emailError; ?></span>
+                        <?php endif; ?>
                 </div>
 
 
@@ -58,6 +67,9 @@ include './inc/formcontrol.php';
                         <option value="other" <?php
                          if (isset($_POST['drop']) && ($_POST['drop'])=='other') echo 'selected=""' ; ?>><?php echo $lang['FORM_DROP_OPTION4']; ?></option>
                     </select>
+                    <?php if (!empty($dropError)) : ?>
+                            <span class="help-inline"><?php echo $dropError; ?></span>
+                        <?php endif; ?>
                 </div>
                 <cite style="font-size: smaller;"><em>*&nbsp<?php echo $lang['FORM_FORM']; ?></em></cite>
                 <div class="group2">
@@ -125,6 +137,9 @@ include './inc/formcontrol.php';
                 <div class="group">
                     <label for="comment"><?php echo $lang['FORM_COMMENT']; ?></label>
                     <textarea id="comments" class="input-textarea <?php echo !empty($commentError) ? 'No-valid' : ''; ?>" name="comment" placeholder="<?php echo $lang['FORM_COMMENT_LABEL']; ?>" value="<?php echo isset($_POST['comment']) ? $_POST['comment'] : '' ?>"></textarea>
+                    <?php if (!empty($commentError)) : ?>
+                            <span class="help-inline"><?php echo $commentError; ?></span>
+                        <?php endif; ?>
                 </div>
                 <?php
                 if (isset($valid)) {

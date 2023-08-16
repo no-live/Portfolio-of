@@ -57,4 +57,14 @@ $lang['FORM_COMMENT'] = 'Laissez un commentaire';
 $lang['FORM_COMMENT_LABEL'] = 'Entrez votre commentaire ici';
 $lang['FORM_SUBMIT'] = 'Envoyez';
 
+//Formulaire erreur
+
+$lang['FORM_NAME_ERROR'] = 'Saisissez un nom';
+$lang['FORM_NAME_ERROR_2'] = 'Lettres et espace seulement';
+$lang['FORM_MAIL_ERROR'] = 'Saisissez une adresse Email';
+$lang['FORM_MAIL_ERROR_2'] = 'Entrez une adresse Email valide';
+$lang['FORM_DROP_ERROR'] = 'Choisissez une option';
+$lang['FORM_COMMENT_ERROR'] = 'Erreur dans le commentaire';
+
+
 ?>

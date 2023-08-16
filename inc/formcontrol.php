@@ -1,4 +1,5 @@
 <?php
+require_once 'multilang.php';
 $testretour = 'Wait...';
 var_dump($_POST);
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
@@ -14,35 +15,35 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
     $comment = htmlentities(trim($_POST['comment']));
     $valid = true;
     if (empty($name)) {
-        $nameError = 'Name error';
+        $nameError = $lang['FORM_NAME_ERROR'];
         $valid = false;
     } else if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
-        $nameError = 'Lettres et espace seulement';
+        $nameError = $lang['FORM_NAME_ERROR_2'];
         $valid = false;
     }
     if (empty($email)) {
-        $emailError = 'Email empty';
+        $emailError = $lang['FORM_MAIL_ERROR'];
         $valid = false;
     } else if (isset($email)) {
         $email = filter_var($email, FILTER_SANITIZE_EMAIL);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $emailError = 'Email error';
+            $emailError = $lang['FORM_MAIL_ERROR_2'];
             $valid = false;
         }
         // else if (!preg_match('/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/i', $email)){
     }
     if (empty($drop)) {
-        $dropError = 'Choice error';
+        $dropError = $lang['FORM_DROP_ERROR'];
         $valid = false;
     }
     if (!empty($comment)) {
         $comment = htmlspecialchars($comment);
         if (!preg_match('/./us', $comment)) {
-            $commentError = 'Comment error';
+            $commentError = $lang['FORM_COMMENT_ERROR'];
             $valid = false;
         }
     }
-    if (!empty($nickname)) {
+    if (!empty($nickname)) { //spambot
             $valid = false;
     }
     if ($valid) {

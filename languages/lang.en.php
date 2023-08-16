@@ -27,6 +27,7 @@ $lang['ASIDE'] = 'Passionate about new technologies, I am open to all projects. 
 
 
 // Contenu
+
 $lang['ARTICLE_1'] = '01 EN 🏴‍☠️ Sunt exercitation fugiat ullamco aliquip.Ad et amet elit aute fugiat non in. Irure ullamco ad reprehenderit 
 ex minim nulla consectetur enim incididunt et nostrud.
  Anim culpa occaecat enim ut pariatur quis duis et velit et elit
@@ -42,7 +43,6 @@ $lang['ARTICLE_6'] = '06 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Nulla
 
 //Formulaire
 
-
 $lang['FORM_FORM'] = 'Required fields';
 $lang['FORM_NAME'] = 'Name';
 $lang['FORM_NAME_HOLD'] = 'Enter your name';
@@ -57,6 +57,15 @@ $lang['FORM_DROP_OPTION4'] = 'Bot';
 $lang['FORM_COMMENT'] = 'Leave a comment';
 $lang['FORM_COMMENT_LABEL'] = 'Enter your comment here';
 $lang['FORM_SUBMIT'] = 'Submit';
+
+//Formulaire erreur
+
+$lang['FORM_NAME_ERROR'] = 'Fill name field';
+$lang['FORM_NAME_ERROR_2'] = 'Only letters and space character';
+$lang['FORM_MAIL_ERROR'] = 'Fill email field';
+$lang['FORM_MAIL_ERROR_2'] = 'Enter a valid Email address';
+$lang['FORM_DROP_ERROR'] = 'Choose an option';
+$lang['FORM_COMMENT_ERROR'] = 'Comment error';
 
 
 
