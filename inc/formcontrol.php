@@ -36,6 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
         $dropError = $lang['FORM_DROP_ERROR'];
         $valid = false;
     }
+    if ($drop=='other'){
+        $valid = false;
+    }
     if (!empty($comment)) {
         $comment = htmlspecialchars($comment);
         if (!preg_match('/./us', $comment)) {
@@ -43,11 +46,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
             $valid = false;
         }
     }
-    if (!empty($nickname)) { //spambot
+    if (!empty($nickname)) { //spbt
             $valid = false;
     }
     if ($valid) {
-        $testretour = 'OK✔';
+        $testretour = 'Merci ! ✔';
     }
     
     var_dump($valid, $nameError, $emailError, $dropError, $commentError);

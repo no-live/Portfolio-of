@@ -38,7 +38,7 @@ include './inc/formcontrol.php';
                 </div>
                 <div class="group2">
                     <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?><sup>&nbsp*</sup></label>
-                    <input id="nickname" class="form" type="text" name="nickname" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>">
+                    <input id="nickname" class="form" type="text" name="nickname" placeholder="<?php echo $lang['FORM_NICK_HOLD']; ?>">
                     <?php if (!empty($nickError)) : ?>
                         <span class="dserror d-flex"><?php echo $nickError; ?></span>
                     <?php endif; ?>
@@ -63,13 +63,13 @@ include './inc/formcontrol.php';
                         <option value="preferNo" <?php
                                                     if (isset($_POST['drop']) && ($_POST['drop']) == 'preferNo') echo 'selected=""'; ?>><?php echo $lang['FORM_DROP_OPTION3']; ?></option>
                         <option value="other" <?php
-                                                if (isset($_POST['drop']) && ($_POST['drop']) == 'other') echo 'selected=""'; ?>><?php echo $lang['FORM_DROP_OPTION4']; ?></option>
+                                                if (isset($_POST['drop']) && ($_POST['drop']) == 'other') echo 'selected=""'; ?> <?php echo $lang['Spb']; ?>><?php echo $lang['FORM_DROP_OPTION4']; ?></option>
                     </select>
                     <?php if (!empty($dropError)) : ?>
                         <span class="dserror d-flex"><?php echo $dropError; ?></span>
                     <?php endif; ?>
                 </div>
-                <br>
+                <!-- <br> -->
                 <p style="font-size: smaller;"><em><sup>*&nbsp</sup><?php echo $lang['FORM_FORM']; ?></em></p>
                 <hr>
                 <div class="group2">
@@ -144,7 +144,7 @@ include './inc/formcontrol.php';
                 <?php
                 if ((isset($valid)) && $valid == 'true'){
                 ?>
-                        <a href="./index.php?lang=<?=($lang['LANG']);?>"><?php echo $testretour; ?></a>
+                        <a class="btn btn-secondary" href="./index.php?lang=<?=($lang['LANG']);?>"><?php echo $testretour; ?></a>
                     <!-- <div class="group1">
                         <button type="submit" id="submit" class="submit-button">
                             <?php echo $lang['FORM_SUBMIT']; ?>
@@ -154,7 +154,7 @@ include './inc/formcontrol.php';
                 ?>
                     <div class="group1">
                         <button type="submit" id="submit" class="submit-button">
-                            <?php echo $lang['FORM_SUBMIT']; ?> RETOUR
+                            <?php echo $lang['FORM_SUBMIT']; ?>
                         </button>
                     </div>
                 <?php }

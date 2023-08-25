@@ -11,6 +11,7 @@ $lang['LANG'] = 'FR';
 $lang['PAGE_TITLE'] = 'Portfolio';
 $lang['HEADER_TITLE'] = 'Développeur Web/ Web mobile Fullstack';
 $lang['SITE_NAME'] = 'Portfolio - Dév Fullstack';
+$lang['Spb'] = 'hidden';
 
 
 // Menu
@@ -24,9 +25,11 @@ $lang['MENU_CONTACT'] = 'Contact';
 $lang['MENU_CALL'] = 'Contactez-moi';
 
 // Aside
+
 $lang['ASIDE'] = 'Passionné de nouvelles technologies, je suis ouvert à tous projets! Contactez moi 👇👇👇 ! ';
 
 // Contenu
+
 $lang['ARTICLE_1'] = '01 FR 🤘 Sunt exercitation fugiat ullamco aliquip.Ad et amet elit aute fugiat non in. Irure ullamco ad reprehenderit 
 ex minim nulla consectetur enim incididunt et nostrud.
  Anim culpa occaecat enim ut pariatur quis duis et velit et elit
@@ -59,9 +62,9 @@ $lang['FORM_SUBMIT'] = 'Envoyez';
 
 //Formulaire erreur
 
-$lang['FORM_NAME_ERROR'] = 'Saisissez un nom';
-$lang['FORM_NAME_ERROR_2'] = 'Lettres et espace seulement';
-$lang['FORM_MAIL_ERROR'] = 'Saisissez une adresse Email';
+$lang['FORM_NAME_ERROR'] = 'Saisissez un nom valide';
+$lang['FORM_NAME_ERROR_2'] = 'Lettres et espaces seulement';
+$lang['FORM_MAIL_ERROR'] = 'Saisissez une adresse Email valide';
 $lang['FORM_MAIL_ERROR_2'] = 'Entrez une adresse Email valide';
 $lang['FORM_DROP_ERROR'] = 'Choisissez une option';
 $lang['FORM_COMMENT_ERROR'] = 'Erreur dans le commentaire';

@@ -11,7 +11,7 @@ $lang['LANG'] = 'EN';
 $lang['PAGE_TITLE'] = 'Portfolio';
 $lang['HEADER_TITLE'] = 'Full Stack Web/Mobile Web Developer';
 $lang['SITE_NAME'] = 'Portfolio - Fullstack dev';
-
+$lang['Spb'] = 'hidden';
 
 // Menu
 
@@ -60,8 +60,8 @@ $lang['FORM_SUBMIT'] = 'Submit';
 
 //Formulaire erreur
 
-$lang['FORM_NAME_ERROR'] = 'Fill name field';
-$lang['FORM_NAME_ERROR_2'] = 'Only letters and space character';
+$lang['FORM_NAME_ERROR'] = 'Fill valid name field';
+$lang['FORM_NAME_ERROR_2'] = 'Only letters and spaces character';
 $lang['FORM_MAIL_ERROR'] = 'Fill email field';
 $lang['FORM_MAIL_ERROR_2'] = 'Enter a valid Email address';
 $lang['FORM_DROP_ERROR'] = 'Choose an option';
