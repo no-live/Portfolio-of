@@ -54,7 +54,7 @@ span1::before{
     
     overflow: hidden;
     border-right: .10em solid rgba(0, 0, 0, 0);
-    font-size: calc(1rem + 1vw);
+    /* font-size: calc(1rem + 1vw); */
     width: 0;
     white-space: nowrap;
     animation:
@@ -88,7 +88,6 @@ span1::before{
     to{ width:0 }
     /* 97%{ width:100% }
     to{ width:100% } */
-    
     
   }
   @keyframes contentsw {

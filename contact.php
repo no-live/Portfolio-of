@@ -30,14 +30,14 @@ include './inc/formcontrol.php';
 
             <form id="formulaire_contact" method="POST" action="contact.php?lang=<?= ($lang['LANG']); ?>">
                 <div class="group <?php echo !empty($nameError) ? 'error' : ''; ?>"> <!--//ajoute une classe 'error'-->
-                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?><sup>&nbsp*</sup></label>
+                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?><sup style="color:red">&nbsp*</sup></label>
                     <input id="name" class="form <?php echo !empty($nameError) ? 'No-valid' : ''; ?> <?php echo empty($nameError) && !empty($name) ? 'Valid' : ''; ?> " type="text" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
                     <?php if (!empty($nameError)) : ?>
                         <span class="dserror d-flex"><?php echo $nameError; ?></span>
                     <?php endif; ?>
                 </div>
                 <div class="group2">
-                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?><sup>&nbsp*</sup></label>
+                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?><sup style="color:red">&nbsp*</sup></label>
                     <input id="nickname" class="form" type="text" name="nickname" placeholder="<?php echo $lang['FORM_NICK_HOLD']; ?>">
                     <?php if (!empty($nickError)) : ?>
                         <span class="dserror d-flex"><?php echo $nickError; ?></span>
@@ -45,15 +45,15 @@ include './inc/formcontrol.php';
                 </div>
 
                 <div class="group <?php echo !empty($emailError) ? 'error' : ''; ?>">
-                    <label id="email-label" for="email"><?php echo $lang['FORM_MAIL']; ?><sup>&nbsp*</sup></label>
+                    <label id="email-label" for="email"><?php echo $lang['FORM_MAIL']; ?><sup style="color:red">&nbsp*</sup></label>
                     <input id="email" class="form <?php echo !empty($emailError) ? 'No-valid' : ''; ?> <?php echo empty($emailError) && !empty($email) ? 'Valid' : ''; ?>" type="text" name="email" placeholder="<?php echo $lang['FORM_MAIL_HOLD']; ?>" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
                     <?php if (!empty($emailError)) : ?>
                         <span class="dserror d-flex"><?php echo $emailError; ?></span>
                     <?php endif; ?>
                 </div>
+                
                 <div class="group1 <?php echo !empty($dropError) ? 'error' : ''; ?>">
-
-                    <label id="dropdown-label" for="drop"><?php echo $lang['FORM_DROP']; ?><sup>&nbsp*</sup></label>
+                    <label id="dropdown-label" for="drop"><?php echo $lang['FORM_DROP']; ?><sup style="color:red">&nbsp*</sup></label>
                     <select id="dropdown" class="form <?php echo !empty($dropError) ? 'No-valid' : ''; ?> <?php echo !empty($drop) ? 'Valid' : ''; ?>" name="drop">
                         <option value=""><?php echo $lang['FORM_DROP_OPTION0']; ?></option>
                         <option value="info" <?php
@@ -70,7 +70,7 @@ include './inc/formcontrol.php';
                     <?php endif; ?>
                 </div>
                 <!-- <br> -->
-                <p style="font-size: smaller;"><em><sup>*&nbsp</sup><?php echo $lang['FORM_FORM']; ?></em></p>
+                <p style="font-size: smaller;"><em><sup style="color:red">*&nbsp</sup><?php echo $lang['FORM_FORM']; ?></em></p>
                 <hr>
                 <div class="group2">
                     <p>Which option best describes your current role?</p>
