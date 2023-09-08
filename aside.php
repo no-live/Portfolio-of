@@ -7,7 +7,7 @@
         </div>
         <div class="card__item card__item--right f-s p-1">
             <h2 class="text-center m-0" style="font-size:1.5rem">Olivier FEUERBACH</h2>
-            <blockquote>
+            <blockquote class="rounded">
                 <p><i class="fas fa-quote-left"></i><?php echo $lang['ASIDE']; ?>
                 <i class="fas fa-quote-right"></i></p>
             </blockquote>
