@@ -31,12 +31,10 @@ include './inc/multilang.php';
                     </p>
                     <p class="bouncing-letters text-center">
                         <span>D</span><span>é</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>p</span><span>e</span><span>u</span><span>r</span>
-
                         <span>W</span><span>e</span><span>b</span><span>/</span>&nbsp
                     </p>
                     <p class="bouncing-letters text-center">
                         <span>W</span><span>e</span><span>b</span>
-
                         <span>m</span><span>o</span><span>b</span><span>i</span><span>l</span><span>e</span>&nbsp
                     </p>
                     <p class="bouncing-letters text-center">
