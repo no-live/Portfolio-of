@@ -50,12 +50,13 @@ body {
 
 .bounce{
     animation: bounce;
+    /* text-transform: uppercase; */
 }
 
 
 .bouncing-letters span {
     animation-timing-function: linear;
-    animation-duration: 1.5s;
+    animation-duration: 1500ms;
     animation-iteration-count: 1;
     display: inline-block;
 }
@@ -65,13 +66,16 @@ body {
     50%,
     80%
     {
-        transform: scale(1, 1) ;
+        transform: scale(1, 1) rotateY(360deg);
+    }
+    30% {
+        transform: translateY(-5vh);
     }
     40% {
-        transform: scale(1.75, 0.65) translateY(-2vh) rotateY(360deg);
+        transform: scale(1.75, 0.65) ;
     }
     45% {
-        transform: scale(1.75, 0.65);
+        transform: scale(1.75, 0.65);text-transform: uppercase;
     }
     70% {
         transform: scale(1.25, 0.75);

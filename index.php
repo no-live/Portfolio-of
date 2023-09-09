@@ -30,15 +30,19 @@ include './inc/multilang.php';
                         <span>B</span><span>o</span><span>n</span><span>j</span><span>o</span><span>u</span><span>r</span><span>!</span>&nbsp
                     </p>
                     <p class="bouncing-letters text-center">
-                        <span>D</span><span>é</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>p</span><span>e</span><span>u</span><span>r</span>
-                        <span>W</span><span>e</span><span>b</span><span>/</span>&nbsp
+                        <span>J</span><span>e</span>&nbsp<span>s</span><span>u</span><span>i</span><span>s</span>&nbsp<span>O</span><span>l</span><span>i</span><span>v</span><span>i</span><span>e</span><span>r</span><span>,</span>
+                        <span>u</span><span>n</span>&nbsp
                     </p>
                     <p class="bouncing-letters text-center">
-                        <span>W</span><span>e</span><span>b</span>
+                        <span>d</span><span>é</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>p</span><span>e</span><span>u</span><span>r</span>
+                        <span>w</span><span>e</span><span>b</span><span>/</span>&nbsp
+                    </p>
+                    <p class="bouncing-letters text-center">
+                        <span>w</span><span>e</span><span>b</span>
                         <span>m</span><span>o</span><span>b</span><span>i</span><span>l</span><span>e</span>&nbsp
                     </p>
                     <p class="bouncing-letters text-center">
-                        <span>F</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>
+                        <span>f</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>
                     </p>
                 </h1>
             <?php } else {
@@ -47,18 +51,20 @@ include './inc/multilang.php';
                     <p class="bouncing-letters">
                         <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span><span>!</span>&nbsp
                     </p>
-                    <p class="bouncing-letters">
-                        <span>F</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>
-                        <!-- <div class="bouncing-letters"> -->
-                        <span>W</span><span>e</span><span>b</span><span>/</span>&nbsp
+                    <p class="bouncing-letters text-center">
+                        <span>I</span>&nbsp<span>a</span><span>m</span>&nbsp<span>O</span><span>l</span><span>i</span><span>v</span><span>i</span><span>e</span><span>r</span><span>,</span>
+                        <span>a</span>&nbsp
                     </p>
                     <p class="bouncing-letters">
-                        <span>M</span><span>o</span><span>b</span><span>i</span><span>l</span>
-                        <!-- <div class="bouncing-letters"> -->
-                        <span>W</span><span>e</span><span>b</span>&nbsp
+                        <span>f</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>
+                        <span>w</span><span>e</span><span>b</span><span>/</span>&nbsp
                     </p>
                     <p class="bouncing-letters">
-                        <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+                        <span>m</span><span>o</span><span>b</span><span>i</span><span>l</span>
+                        <span>w</span><span>e</span><span>b</span>&nbsp
+                    </p>
+                    <p class="bouncing-letters">
+                        <span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
                     </p>
                 </h1>
             <?php } ?>
