@@ -28,7 +28,7 @@
         </div>
     </section>
     <section>
-        <div class="container1">
+        <div class="container">
             <div class="sliding-background">
             </div>
         </div>

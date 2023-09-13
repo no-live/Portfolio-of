@@ -29,7 +29,6 @@
 
 img,video {
     width: 100%;
-    
 }
 
 body {
@@ -37,10 +36,16 @@ body {
     font-size: large;
     font-family: 'Nanum Gothic', sans-serif;
     background-color: #f5f5f7;
-    
+}
+.bgc{
+    background-color: #f5f5f5;
 }
 
-.title1{
+.bdeffect{
+    background: linear-gradient(200deg, rgba(119, 119, 119, 0.486) 0%, rgba(245, 245, 247, 0.952) 45%);
+}
+
+.title-height{
     min-height: calc(12% + -28vw);
     padding-top: 15%;
     padding-bottom: 21%;
@@ -48,40 +53,49 @@ body {
     font-size: 3vw;
 }
 
-.bounce{
-    animation: bounce;
-    /* text-transform: uppercase; */
+.itemrow{
+    width:100%;
 }
 
+.bounce{
+    animation: bounce;
+}
 
 .bouncing-letters span {
     animation-timing-function: linear;
-    animation-duration: 1500ms;
+    animation-duration: 1200ms;
     animation-iteration-count: 1;
     display: inline-block;
 }
 
 @keyframes bounce {
+    1%{
+         text-transform: capitalize; font-family: 'Barrio';
+    }
+    10%{
+        transform: rotateY(360deg);
+    }
     20%,
     50%,
     80%
     {
-        transform: scale(1, 1) rotateY(360deg);
+        transform: scale(1, 1) ;
     }
-    30% {
+    50% {
         transform: translateY(-5vh);
     }
+    
     40% {
-        transform: scale(1.75, 0.65) ;
+        transform: scale(1.75, 0.65);
     }
     45% {
-        transform: scale(1.75, 0.65);text-transform: uppercase;
+        transform: scale(1.75, 0.65);
     }
     70% {
         transform: scale(1.25, 0.75);
     }
     90% {
-        transform: scale(1.15, 0.85) ;
+        transform: scale(1.15, 0.85);
     }
     to {
         transform: scale(1, 1);
@@ -96,14 +110,12 @@ span1::before{
 }
 
 .type1{
-    
     overflow: hidden;
     border-right: .10em solid rgba(0, 0, 0, 0);
     /* font-size: calc(1rem + 1vw); */
     width: 0;
     white-space: nowrap;
     animation:
-       
         blink .5s 52,
         typing 8s steps(50, end) forwards 4;
         animation-delay: 3s;
@@ -173,9 +185,15 @@ aside {
 
 main {
     min-height: calc(100vh - 2 * var(--header-height));
-    flex: 2 1 470px;
     /*le main a un minimum de 100vh-2*la hauteur (header+footer) et peut s'agrandir */
+    flex: 2 1 470px;
     z-index: 1;
+    /* height:100vh; */
+
+    /*parallax*/
+    overflow-x: hidden; 
+    overflow-y: auto;
+    perspective: 2px;
     
 }
 .bgm {
@@ -184,8 +202,35 @@ main {
     background-attachment: fixed;
     background-size:cover;
     background-color: #f5f5f5;
-    
+    /* height: 100vh; */
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
+
+.pres1{
+    border-left: 10px solid rgba(0, 0, 0, 0.555);
+    margin-left: 1vw;
+    padding-left: 1%;
+    background-color: #f5f5f5;
+}
+
+.pres2{
+    border-left: 10px solid rgba(0, 0, 0, 0.555);
+    margin-left: 1vw;
+    padding-left: 1%;
+    background-color: #f5f5f500;
+}
+
+.paral{
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*h1,
 h2,
 h3,
@@ -245,7 +290,9 @@ blockquote i {
 .f-wraprr{
     flex-wrap: wrap-reverse;
 }
-
+.f-nowrap{
+    flex-flow: row wrap;
+}
 .g-1 {
     gap: 1rem;
 }
@@ -368,15 +415,16 @@ blockquote i {
     box-shadow: 0 4px 8px 0 rgb(13, 79, 149), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.container1{
+#sideleft > section:nth-child(2) {
+    position: fixed;
+}
+
+.container{
     /* position: fixed; */
     overflow: hidden;
     /* height:3400px; */
     top:0px;
 }
-#sideleft > section:nth-child(2) {
-    position: fixed;
-  }
   
 .sliding-background{
     

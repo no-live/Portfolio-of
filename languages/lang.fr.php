@@ -29,7 +29,8 @@ $lang['MENU_CALL'] = 'Contactez-moi';
 $lang['ASIDE'] = 'Passionné de nouvelles technologies, je suis ouvert à tous projets! Contactez moi 👇👇👇 ! ';
 
 // Contenu
-
+$lang['PRESENTATION'] = 'Ma formation m\'a permis d\'utiliser des technologies permettant de répondre aux besoins nécessaires à la 
+création de sites web de qualité. J\'accorde une attention toute particulière à la sécurité des données ainsi qu\'à réaliser une interface claire et fonctionnelle.';
 $lang['ARTICLE_1'] = '01 FR 🤘 Sunt exercitation fugiat ullamco aliquip.Ad et amet elit aute fugiat non in. Irure ullamco ad reprehenderit 
 ex minim nulla consectetur enim incididunt et nostrud.
  Anim culpa occaecat enim ut pariatur quis duis et velit et elit

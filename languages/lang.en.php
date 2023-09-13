@@ -27,7 +27,8 @@ $lang['ASIDE'] = 'Passionate about new technologies, I am open to all projects. 
 
 
 // Contenu
-
+$lang['PRESENTATION'] = 'My training has enabled me to use technologies to meet the needs needed to create quality websites. I pay 
+particular attention to data security as well as to create a clear and functional interface.';
 $lang['ARTICLE_1'] = '01 EN 🏴‍☠️ Sunt exercitation fugiat ullamco aliquip.Ad et amet elit aute fugiat non in. Irure ullamco ad reprehenderit 
 ex minim nulla consectetur enim incididunt et nostrud.
  Anim culpa occaecat enim ut pariatur quis duis et velit et elit
