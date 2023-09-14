@@ -22,7 +22,7 @@ include './inc/multilang.php';
     <div class="main-container d-flex f-wrap g-1">
         <?php include("./aside.php") ?>
         <main class="p-1">
-            <section class="d-flex bdeffect jc-c">
+            <section class="d-flex bdeffect jc-c" style="height: 100vh">
                 <?php
                 if (!isset($_SESSION['lang']) or ($_SESSION['lang']) == 'FR') {
                 ?>

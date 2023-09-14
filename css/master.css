@@ -427,7 +427,6 @@ blockquote i {
 }
   
 .sliding-background{
-    
     position: absolute;
     top:-575px;
     background: url("../images/bg.jpg")repeat;
