@@ -9,7 +9,7 @@
             <h2 class="text-center m-0" style="font-size:1.5rem">Olivier FEUERBACH</h2>
             <blockquote class="rounded">
                 <p><i class="fas fa-quote-left"></i><?php echo $lang['ASIDE']; ?>
-                <i class="fas fa-quote-right"></i></p>
+                
             </blockquote>
             <div class="sm d-flex jc-c g-1">
                 <a class="sm__link" href="#">

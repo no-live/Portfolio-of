@@ -27,15 +27,10 @@ $lang['ASIDE'] = 'Passionate about new technologies, I am open to all projects. 
 
 
 // Contenu
-$lang['PRESENTATION'] = 'My training has enabled me to use technologies to meet the needs needed to create quality websites. I pay 
+$lang['PRESENTATION'] = 'My training as a web developer has enabled me to acquire the technical skills essential for the creation and management of websites and web applications. I pay 
 particular attention to data security as well as to create a clear and functional interface.';
-$lang['ARTICLE_1'] = '01 EN 🏴‍☠️ Sunt exercitation fugiat ullamco aliquip.Ad et amet elit aute fugiat non in. Irure ullamco ad reprehenderit 
-ex minim nulla consectetur enim incididunt et nostrud.
- Anim culpa occaecat enim ut pariatur quis duis et velit et elit
-  nulla fugiat. Labore cupidatat anim nisi consectetur ut cupidatat
-   exercitation anim cillum pariatur. Occaecat voluptate nulla adipisicing 
-   cupidatat in ipsum cillum cupidatat est proident culpa. Esse fugiat ipsum 
-   commodo eiusmod.Lorem';
+$lang['ARTICLE_1'] = 'As a front-end developer, I make sure to design sites or applications flexibly to adapt content to make it readable and visually
+ attractive on all possible screen resolutions, whether they are desktop computers, smartphones or tablets.';
 $lang['ARTICLE_2'] = '02 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Ullamco excepteur sint aute et ad incididunt sunt officia ut laborum cillum nostrud.';
 $lang['ARTICLE_3'] = '03 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Ut Lorem excepteur laborum incididunt et cupidatat ad enim.';
 $lang['ARTICLE_4'] = '04 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Aute irure eiusmod adipisicing veniam aliquip duis.';
