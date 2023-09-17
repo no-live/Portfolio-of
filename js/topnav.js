@@ -47,6 +47,24 @@ function asidesmall(x) {
 }
 asidesmall(x)
 x.addEventListener('change', asidesmall)
+
+
+const splashmod = document.getElementById("splash") 
+var x = window.matchMedia("(min-width: 760px)");
+function splashsmall(x) {
+    if (x.matches) {
+        splashmod.classList.remove('smallsc');
+        splashmod.classList.add('fullsc');
+        
+    } else {
+        splashmod.classList.add('smallsc');
+        splashmod.classList.remove('fullsc');
+}
+}
+splashsmall(x)
+x.addEventListener('change', splashsmall)
+
+
 // const actionButton2 = document.querySelector('.bttn');
 // const move = document.querySelector('.main-header__logo-img');
 // const move1 = document.querySelector('.backgroundlog');
@@ -56,4 +74,3 @@ x.addEventListener('change', asidesmall)
     // move1.classList.toggle('backgroundlog--imgout');
     // console.log("Contenu de la var menu: ",move);
 // })
-

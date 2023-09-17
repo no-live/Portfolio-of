@@ -29,12 +29,15 @@ $lang['ASIDE'] = 'Passionate about new technologies, I am open to all projects. 
 // Contenu
 $lang['PRESENTATION'] = 'My training as a web developer has enabled me to acquire the technical skills essential for the creation and management of websites and web applications. I pay 
 particular attention to data security as well as to create a clear and functional interface.';
+$lang['ARTICLE_TITLE_1'] = 'Front-end developement';
+$lang['ARTICLE_TITLE_2'] = 'Back-end developement';
 $lang['ARTICLE_1'] = 'As a front-end developer, I make sure to design sites or applications flexibly to adapt content to make it readable and visually
  attractive on all possible screen resolutions, whether they are desktop computers, smartphones or tablets.';
-$lang['ARTICLE_2'] = '02 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Ullamco excepteur sint aute et ad incididunt sunt officia ut laborum cillum nostrud.';
-$lang['ARTICLE_3'] = '03 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Ut Lorem excepteur laborum incididunt et cupidatat ad enim.';
-$lang['ARTICLE_4'] = '04 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Aute irure eiusmod adipisicing veniam aliquip duis.';
-$lang['ARTICLE_5'] = '05 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Cupidatat dolor eiusmod duis fugiat fugiat eiusmod nisi excepteur veniam mollit do laboris ipsum adipisicing.';
+$lang['ARTICLE_2'] = 'For the back-end part, I am particularly vigilant about the security of data that transits to and from the server. Keeping software up to date, applying patches
+ and following up-to-date updates on the latest innovations are a priority for me.';
+$lang['PROJET_1'] = '03 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Ut Lorem excepteur laborum incididunt et cupidatat ad enim.';
+$lang['PROJET_2'] = '04 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Aute irure eiusmod adipisicing veniam aliquip duis.';
+$lang['PROJET_3'] = '05 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Cupidatat dolor eiusmod duis fugiat fugiat eiusmod nisi excepteur veniam mollit do laboris ipsum adipisicing.';
 $lang['ARTICLE_6'] = '06 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Nulla nulla do adipisicing exercitation laborum voluptate.';
 
 //Formulaire

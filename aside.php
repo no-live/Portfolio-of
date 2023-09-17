@@ -1,7 +1,7 @@
 <aside class="p-1" id="sideleft"> <!--id pour js-->
     <section class="card d-flex f-wrap g-1">
         <div class="card__item card__item--left f-s relative d-flex">
-            <img class="card__img p-4" src="./images/profil.png" alt="profil">
+            <img class="card__img p-4" src="./images/profil.png" alt="avatar_profil">
             <div class="blue-square">
             </div>
         </div>

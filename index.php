@@ -7,7 +7,6 @@ include './inc/multilang.php';
 
 <html lang="<?php echo $lang['LANG']; ?>">
 
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +21,7 @@ include './inc/multilang.php';
     <div class="main-container d-flex f-wrap g-1">
         <?php include("./aside.php") ?>
         <main class="p-1">
-            <section class="d-flex bdeffect jc-c" style="height: 70vh">
+            <section class="d-flex bdeffect fullsc jc-c" id="splash">
                 <?php
                 if (!isset($_SESSION['lang']) or ($_SESSION['lang']) == 'FR') {
                 ?>
@@ -36,7 +35,8 @@ include './inc/multilang.php';
                         <div class="bouncing-letters row100 text-center">
                             <span>u</span><span>n</span>&nbsp<span>d</span><span>é</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>p</span><span>e</span><span>u</span><span>r</span>
                             <span>w</span><span>e</span><span>b</span><span>/</span>
-                            <span>w</span><span>e</span><span>b</span>&nbsp<span>m</span><span>o</span><span>b</span><span>i</span><span>l</span><span>e</span>&nbsp
+                            <span>w</span><span>e</span><span>b</span>
+                            <span>m</span><span>o</span><span>b</span><span>i</span><span>l</span><span>e</span>&nbsp
                         </div>
                         <div class="bouncing-letters row100 text-center">
                             <span>f</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>
@@ -69,18 +69,14 @@ include './inc/multilang.php';
                     <span1></span1>
                 </div>
             </div> -->
-            <div class="d-flex g-1 pres1">
+            <div class="d-flex g-1 pres1 bgc">
                 <p><?php echo $lang['PRESENTATION']; ?></p>
             </div>
-            <!-- <div class="d-flex g-1 p-1">
-                <div class="rounded"><img src="./images/html-svgrepo-com.svg" alt="front-developer-logo"></div>
-                <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
-                <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
-            </div> -->
-            <section class="d-flex f-wraprr reverse g-1 my-4 bgm">
+
+            <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm">
                 <div class="f-m">
-                    <h2>Développement Front-end</h2>
-                    <p class="pres2"><?php echo $lang['ARTICLE_1']; ?></p>
+                    <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_1']; ?></h2>
+                    <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_1']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>
@@ -91,14 +87,14 @@ include './inc/multilang.php';
                 <div class="bgc"><img src="./images/image.jpg" alt="Lorem"></div>
                 <div class="bgc"><img src="./images/image.jpg" alt="Lorem"></div>
             </div>
-            <section class="d-flex f-wraprr g-1 my-4">
+            <section class="d-flex f-wraprr g-1 my-4 ai-c">
                 <div class="f-m bgc">
-                    <h2>Développement Back-end</h2>
-                    <p class="pres2"><?php echo $lang['ARTICLE_2']; ?></p>
+                    <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_2']; ?></h2>
+                    <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_2']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>
-            <div class="d-flex g-1 p-1 bgc">
+            <div class="d-flex g-1 p-1">
                 <div class="rounded"><img src="./images/html-svgrepo-com.svg" alt="front-developer-logo"></div>
                 <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
                 <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
@@ -106,23 +102,23 @@ include './inc/multilang.php';
                 <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
             </div>
             <section class="d-flex f-wraprr reverse g-1 my-4 bgm">
-                <div class="f-m">
+                <div class="f-m ai-c jc-c">
                     <h2>debitis et cupiditate</h2>
-                    <p><?php echo $lang['ARTICLE_3']; ?></p>
+                    <p><?php echo $lang['PROJET_1']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>
             <section class="d-flex f-wraprr g-1 my-4">
                 <div class="f-m">
                     <h2>hic omnis itaque</h2>
-                    <p><?php echo $lang['ARTICLE_4']; ?></p>
+                    <p><?php echo $lang['PROJET_2']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>
             <section class="d-flex f-wraprr reverse g-1 my-4">
                 <div class="f-m">
                     <h2>debitis et cupiditate</h2>
-                    <p><?php echo $lang['ARTICLE_5']; ?></p>
+                    <p><?php echo $lang['PROJET_3']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>
