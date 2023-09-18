@@ -96,14 +96,16 @@ include './inc/multilang.php';
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_2']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_2']; ?></p>
                 </div>
-                <div class="f-m d-flex jc-c"><img class="rounded mw66" src="./images/back-dev-img.jpg" alt="backdev-img"></div>
+                <div class="f-m d-flex jc-c bgc"><img class="rounded mw66" src="./images/back-dev-img.jpg" alt="backdev-img"></div>
             </section>
             <div><hr></div>
             <div class="d-flex g-1 p-1 bgc">
+                <div class="mauto"><img class="rounded" src="./images/visualstudio-logo.png" alt="visualstudio-logo"></div>
                 <div class=""><img class="rounded" src="./images/php-icon.png" alt="php-logo"></div>
                 <div class=""><img class="rounded" src="./images/mysql-logo.png" alt="mysql-logo"></div>
-                <div class="mauto"><img class="rounded" src="./images/visualstudio-logo.png" alt="visualstudio-logo"></div>
-                <div class=""><img class="rounded" src="./images/github-logo.png" alt="Lorem"></div>
+                <div class="mauto"><img class="rounded" src="./images/phpmyadmin-logo.png" alt="phpmyadmin-logo"></div>
+                <div class=""><img class="rounded" src="./images/apache-logo.png" alt="apache-logo"></div>
+                <div class=""><img class="rounded" src="./images/github-logo.png" alt="github-logo"></div>
                 <div class=""><img class="rounded" src="./images/git-logo.png" alt="git-logo"></div>
             </div>
             <div><hr></div>
