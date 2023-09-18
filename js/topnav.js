@@ -18,7 +18,7 @@ actionButton.addEventListener("click", function(event){
 })
 
 
-var x = window.matchMedia("(min-width: 760px)");
+var x = window.matchMedia("(min-width: 905px)");
 
 function navbtn1(x) {
     if (x.matches) {
@@ -37,7 +37,7 @@ navbtn1(x)  //Lance la fonction
 x.addEventListener('change', navbtn1) //Reste à l'écoute d'un changement de x (min-width = 760px)
 
 const asidecenter = document.getElementById("sideleft") 
-var x = window.matchMedia("(min-width: 760px)");
+var x = window.matchMedia("(min-width: 905px)");
 function asidesmall(x) {
     if (x.matches) {
         asidecenter.classList.remove('mauto');
@@ -50,7 +50,7 @@ x.addEventListener('change', asidesmall)
 
 
 const splashmod = document.getElementById("splash") 
-var x = window.matchMedia("(min-width: 760px)");
+var x = window.matchMedia("(min-width: 905px)");
 function splashsmall(x) {
     if (x.matches) {
         splashmod.classList.remove('smallsc');

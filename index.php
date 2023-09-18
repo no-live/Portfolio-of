@@ -73,33 +73,42 @@ include './inc/multilang.php';
                 <p><?php echo $lang['PRESENTATION']; ?></p>
             </div>
 
+            <div><hr></div>
             <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm">
                 <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_1']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_1']; ?></p>
                 </div>
-                <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
+                <div class="f-m d-flex jc-c"><img class="rounded mw66" src="./images/front-dev-img.jpg" alt="frontdev-img"></div>
             </section>
-            <div class="d-flex g-1 p-1">
-                <div class="bgc"><img src="./images/html-svgrepo-com.svg" alt="front-developer-logo"></div>
-                <div class="bgc"><img src="./images/image.jpg" alt="Lorem"></div>
-                <div class="bgc"><img src="./images/image.jpg" alt="Lorem"></div>
-                <div class="bgc"><img src="./images/image.jpg" alt="Lorem"></div>
-                <div class="bgc"><img src="./images/image.jpg" alt="Lorem"></div>
+            <div><hr></div>
+            <div class="d-flex g-1 p-1 bgc">
+                <div class="mauto"><img class="rounded" src="./images/figma-logo.png" alt="figma-logo"></div>
+                <div class=""><img class="rounded" src="./images/html-logo.png" alt="html-logo"></div>
+                <div class=""><img class="rounded" src="./images/css-logo.png" alt="css-logo"></div>
+                <div class=""><img class="rounded" src="./images/javascript-logo.png" alt="javascript-logo"></div>
+                <div class=""><img class="rounded" src="./images/bootstrap-logo.png" alt="bootstrap-logo"></div>
+                <div class=""><img class="rounded" src="./images/wordpress-logo.png" alt="wordpress-logo"></div>
             </div>
+            <div><hr></div>
             <section class="d-flex f-wraprr g-1 my-4 ai-c">
                 <div class="f-m bgc">
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_2']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_2']; ?></p>
                 </div>
-                <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
+                <div class="f-m d-flex jc-c"><img class="rounded mw66" src="./images/back-dev-img.jpg" alt="backdev-img"></div>
             </section>
-            <div class="d-flex g-1 p-1">
-                <div class="rounded"><img src="./images/html-svgrepo-com.svg" alt="front-developer-logo"></div>
-                <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
-                <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
-                <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
-                <div class="rounded"><img src="./images/image.jpg" alt="Lorem"></div>
+            <div><hr></div>
+            <div class="d-flex g-1 p-1 bgc">
+                <div class=""><img class="rounded" src="./images/php-icon.png" alt="php-logo"></div>
+                <div class=""><img class="rounded" src="./images/mysql-logo.png" alt="mysql-logo"></div>
+                <div class="mauto"><img class="rounded" src="./images/visualstudio-logo.png" alt="visualstudio-logo"></div>
+                <div class=""><img class="rounded" src="./images/github-logo.png" alt="Lorem"></div>
+                <div class=""><img class="rounded" src="./images/git-logo.png" alt="git-logo"></div>
+            </div>
+            <div><hr></div>
+            <div class="d-flex g-1 pres1 bgc">
+                <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
             </div>
             <section class="d-flex f-wraprr reverse g-1 my-4 bgm">
                 <div class="f-m ai-c jc-c">
