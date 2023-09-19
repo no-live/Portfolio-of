@@ -64,6 +64,9 @@ include './inc/multilang.php';
                     </h1>
                 <?php } ?>
             </section>
+            <div><hr>
+
+            </div>
             <!-- <div class="inline-block rounded">
                 <div class="type1">
                     <span1></span1>
@@ -74,21 +77,21 @@ include './inc/multilang.php';
             </div>
 
             <div><hr></div>
-            <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm">
-                <div class="f-m">
+            <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm" img=url"./>
+                <div class="f-m backdrop">
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_1']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_1']; ?></p>
                 </div>
-                <div class="f-m d-flex jc-c"><img class="rounded mw66" src="./images/front-dev-img.jpg" alt="frontdev-img"></div>
+                <div class="f-m d-flex jc-c"><img class="rounded mwimg shadow" src="./images/front-dev-img.jpg" alt="frontdev-img"></div>
             </section>
             <div><hr></div>
             <div class="d-flex g-1 p-1 bgc">
-                <div class="mauto"><img class="rounded" src="./images/figma-logo.png" alt="figma-logo"></div>
-                <div class=""><img class="rounded" src="./images/html-logo.png" alt="html-logo"></div>
-                <div class=""><img class="rounded" src="./images/css-logo.png" alt="css-logo"></div>
-                <div class=""><img class="rounded" src="./images/javascript-logo.png" alt="javascript-logo"></div>
-                <div class=""><img class="rounded" src="./images/bootstrap-logo.png" alt="bootstrap-logo"></div>
-                <div class=""><img class="rounded" src="./images/wordpress-logo.png" alt="wordpress-logo"></div>
+                <img class="rounded mauto mwlogo shadow" src="./images/figma-logo.png" alt="figma-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/html-logo.png" alt="html-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/css-logo.png" alt="css-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/javascript-logo.png" alt="javascript-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/bootstrap-logo.png" alt="bootstrap-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/wordpress-logo.png" alt="wordpress-logo">
             </div>
             <div><hr></div>
             <section class="d-flex f-wraprr g-1 my-4 ai-c">
@@ -96,17 +99,17 @@ include './inc/multilang.php';
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_2']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_2']; ?></p>
                 </div>
-                <div class="f-m d-flex jc-c bgc"><img class="rounded mw66" src="./images/back-dev-img.jpg" alt="backdev-img"></div>
+                <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/back-dev-img.jpg" alt="backdev-img"></div>
             </section>
             <div><hr></div>
             <div class="d-flex g-1 p-1 bgc">
-                <div class="mauto"><img class="rounded" src="./images/visualstudio-logo.png" alt="visualstudio-logo"></div>
-                <div class=""><img class="rounded" src="./images/php-icon.png" alt="php-logo"></div>
-                <div class=""><img class="rounded" src="./images/mysql-logo.png" alt="mysql-logo"></div>
-                <div class="mauto"><img class="rounded" src="./images/phpmyadmin-logo.png" alt="phpmyadmin-logo"></div>
-                <div class=""><img class="rounded" src="./images/apache-logo.png" alt="apache-logo"></div>
-                <div class=""><img class="rounded" src="./images/github-logo.png" alt="github-logo"></div>
-                <div class=""><img class="rounded" src="./images/git-logo.png" alt="git-logo"></div>
+                <img class="rounded mauto mwlogo shadow" src="./images/visualstudio-logo.png" alt="visualstudio-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/php-icon.png" alt="php-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/mysql-logo.png" alt="mysql-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/phpmyadmin-logo.png" alt="phpmyadmin-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/apache-logo.png" alt="apache-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/github-logo.png" alt="github-logo">
+                <img class="rounded mauto mwlogo shadow" src="./images/git-logo.png" alt="git-logo">
             </div>
             <div><hr></div>
             <div class="d-flex g-1 pres1 bgc">

@@ -34,6 +34,7 @@ body {
     margin: 0 auto;
     /* font-size: large; */
     font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1vw;
 }
 
 .bgc{
@@ -41,7 +42,12 @@ body {
 }
 
 .bdeffect{
-    background: linear-gradient(200deg, rgb(119, 119, 119) 0%, rgb(245, 245, 247) 35%);
+    /* background: linear-gradient(200deg, rgb(119, 119, 119) 0%, rgb(245, 245, 247) 35%); */
+    background: url(../images/bg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
 }
 
 .fullsc{
@@ -190,12 +196,15 @@ main {
 }
 
 .bgm {
-    background-image: url('../images/bodybg.jpg');
+    /* background-image: url('../images/bodybg.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
     background-color: var(--light);
-    position: relative;
+   
+}
+.backdrop{
+    backdrop-filter: blur(10px);
 }
 
 .pres1{
@@ -209,6 +218,15 @@ main {
     border-left: 7px solid rgb(68, 68, 68);
     margin-left: 1vw;
     padding: 2%;
+    
+}
+
+.mwimg{
+    max-width: 25vw;
+}
+.mwlogo{
+    max-width: 7%;
+    padding:8px;
     
 }
 
@@ -435,7 +453,7 @@ blockquote i {
 
 }
 .shadow {
-    box-shadow: 0 4px 8px 0 rgb(238, 6, 6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgb(100, 100, 100), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
