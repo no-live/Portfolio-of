@@ -30,7 +30,7 @@
     </div>
     <?php } else {
         ?>
-        <div class="main-header__lang">
+        <div class="main-header__lang d-flex jc-c">
         <form method="GET">
             <input type="hidden" name="lang" value="FR" />
             <input type="submit" class="header-btnlang header-btnlang--eng d-flex" value=""/>

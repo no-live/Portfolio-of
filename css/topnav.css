@@ -127,16 +127,13 @@
 
 }
 .main-header__lang {
-   
     flex: 0 0 50px;
-    margin-top: .5rem;
-    
 }
 
 .header-btnlang {
     display: inline-block;
-    width: 3rem;
-    height: 3rem;
+    width: clamp(30px, 2vh, 3rem);
+    height: clamp(30px, 2vh, 3rem);
     border: solid 2px var(--primary);
     border-radius: 50%;
     
