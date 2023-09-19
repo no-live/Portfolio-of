@@ -22,7 +22,7 @@ include './inc/formcontrol.php';
     <?php include("./header.php") ?>
 
     <div class="main-container d-flex f-wrap g-1">
-        <main id="main" class="bodyc">
+        <main id="main" class="bodyc ">
             <div id="title">
                 <h1>Formulaire de contact</h1>
                 <p id="description"><em>Demandes en un formulaire</em></p>
@@ -51,7 +51,7 @@ include './inc/formcontrol.php';
                         <span class="dserror d-flex"><?php echo $emailError; ?></span>
                     <?php endif; ?>
                 </div>
-                
+
                 <div class="group1 <?php echo !empty($dropError) ? 'error' : ''; ?>">
                     <label id="dropdown-label" for="drop"><?php echo $lang['FORM_DROP']; ?><sup style="color:red">&nbsp*</sup></label>
                     <select id="dropdown" class="form <?php echo !empty($dropError) ? 'No-valid' : ''; ?> <?php echo !empty($drop) ? 'Valid' : ''; ?>" name="drop">
@@ -142,9 +142,9 @@ include './inc/formcontrol.php';
                     <?php endif; ?>
                 </div>
                 <?php
-                if ((isset($valid)) && $valid == 'true'){
+                if ((isset($valid)) && $valid == 'true') {
                 ?>
-                        <a class="btn btn-secondary" href="./index.php?lang=<?=($lang['LANG']);?>"><?php echo $testretour; ?></a>
+                    <a class="btn btn-secondary" href="./index.php?lang=<?= ($lang['LANG']); ?>"><?php echo $testretour; ?></a>
                     <!-- <div class="group1">
                         <button type="submit" id="submit" class="submit-button">
                             <?php echo $lang['FORM_SUBMIT']; ?>

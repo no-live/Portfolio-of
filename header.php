@@ -21,10 +21,10 @@
     <?php 
     if (!isset($_SESSION['lang']) or ($_SESSION['lang']) == 'FR' ){
         ?>
-    <div class="main-header__lang">
+    <div class="main-header__lang d-flex jc-c ">
         <form method="GET"> <!-- Pas de action, avec get => reste sur la page actuelle!-->
             <input type="hidden" name="lang" value="EN" />
-            <input type="submit" class="header-btnlang header-btnlang--fr" value=""/>
+            <input type="submit" class="header-btnlang header-btnlang--fr d-flex" value=""/>
         </form>
     
     </div>
@@ -33,7 +33,7 @@
         <div class="main-header__lang">
         <form method="GET">
             <input type="hidden" name="lang" value="FR" />
-            <input type="submit" class="header-btnlang header-btnlang--eng" value=""/>
+            <input type="submit" class="header-btnlang header-btnlang--eng d-flex" value=""/>
         </form>
     </div>
     <?php } ?>

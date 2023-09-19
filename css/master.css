@@ -34,7 +34,8 @@ body {
     margin: 0 auto;
     /* font-size: large; */
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1vw;
+    /* font-size: calc(12px + 0.9vmin); */
+    font-size: clamp(0.8rem, 1vw, 5rem); /*clamp:min,best,max*/
 }
 
 .bgc{
@@ -67,8 +68,9 @@ body {
     padding-top: 15%;
     padding-bottom: 21%;
     letter-spacing: 3px;
-    font-size: 2vw !important;
-    max-height: 200px;
+    font-size: clamp(1.5rem, 2vw, 5vw);
+    /* font-size: 1.5rem !important; */
+    /* max-height: 200px; */
 }
 
 .row100{
@@ -241,6 +243,8 @@ h6 {
 
 h2 {
     font-family: 'Barrio', cursive;
+    font-size: clamp(1rem, 1.2vw, 5.5rem)!important;
+    font-weight: 900;
 }
 
 h1,
