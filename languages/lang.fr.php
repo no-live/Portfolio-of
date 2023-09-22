@@ -29,8 +29,8 @@ $lang['MENU_CALL'] = 'Contactez-moi';
 $lang['ASIDE'] = 'Passionné de nouvelles technologies, je suis ouvert à tous projets! Contactez-moi !👇 ';
 
 // Contenu
-$lang['PRESENTATION'] = 'Ma formation en tant que développeur web m\'a permis d\'acquérir les compétences techniques essentielles pour la création et la gestion de sites et d\'applications web. J\'accorde une attention toute particulière à la sécurité des données ainsi
- qu\'à réaliser une interface claire et fonctionnelle.';
+$lang['PRESENTATION'] = 'Développer votre site web ou votre application web, je mets à votre disposition mes compétences techniques pour la partie création et gestion de vos projets.
+ J\'accorde une attention toute particulière à la sécurité des données ainsi qu\'à réaliser une interface claire et fonctionnelle.';
 $lang['PRESENTATION_PROJET'] = 'Quelques projets auxquels j\'ai participé. D\'autres à venir!';
 $lang['ARTICLE_TITLE_1'] = 'Développement front-end';
 $lang['ARTICLE_TITLE_2'] = 'Développement back-end';

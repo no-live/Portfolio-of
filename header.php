@@ -3,7 +3,7 @@
     <div class="main-header__button btn">
         <i class="fas fa-bars"></i>
     </div>
-    <nav class="menu menu--header d-flex">
+    <nav class="menu menu--header d-flex ai-c">
         <a class="menu__link p-1" href="./index.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_HOME']; ?></a>
         <a class="menu__link p-1" href="./projets.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_PROJECTS']; ?></a>
         <a class="menu__link p-1" href="./contact.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_CONTACT']; ?></a>

@@ -32,31 +32,27 @@ include './inc/multilang.php';
                         <div class="bouncing-letters row100 text-center">
                             <span>J</span><span>e</span>&nbsp<span>s</span><span>u</span><span>i</span><span>s</span>&nbsp<span>O</span><span>l</span><span>i</span><span>v</span><span>i</span><span>e</span><span>r</span><span>,</span>&nbsp
                         </div>
-                        <div class="bouncing-letters row100 text-center">
-                            <span>u</span><span>n</span>&nbsp<span>d</span><span>é</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>p</span><span>e</span><span>u</span><span>r</span>
-                            <span>w</span><span>e</span><span>b</span><span>/</span>
-                            <span>w</span><span>e</span><span>b</span>
-                            <span>m</span><span>o</span><span>b</span><span>i</span><span>l</span><span>e</span>&nbsp
+                        <div class="bouncing-letters text-center">
+                            <span>u</span><span>n</span>&nbsp<span>d</span><span>é</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>p</span><span>e</span><span>u</span><span>r</span>&nbsp
                         </div>
-                        <div class="bouncing-letters row100 text-center">
-                            <span>f</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>
+                        <div class="bouncing-letters text-center">
+                            <span>w</span><span>e</span><span>b</span>&nbsp<span>f</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>
                         </div>
                     </h1>
                 <?php } else {
                 ?>
                     <h1 class=" d-flex f-wrap jc-c title-height">
-                        <div class="bouncing-letters itemrow text-center">
+                        <div class="bouncing-letters row100 text-center">
                             <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span><span>!</span>&nbsp
                         </div>
-                        <div class="bouncing-letters itemrow text-center">
+                        <div class="bouncing-letters row100 text-center">
                             <span>I</span>&nbsp<span>a</span><span>m</span>&nbsp<span>O</span><span>l</span><span>i</span><span>v</span><span>i</span><span>e</span><span>r</span><span>,</span>&nbsp
                         </div>
                         <div class="bouncing-letters">
                             <span>a</span>&nbsp<span>f</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>&nbsp
                         </div>
                         <div class="bouncing-letters">
-                            <span>w</span><span>e</span><span>b</span><span>/</span>&nbsp<span>m</span><span>o</span><span>b</span><span>i</span><span>l</span>
-                            <span>w</span><span>e</span><span>b</span>&nbsp
+                            <span>w</span><span>e</span><span>b</span><span>
                         </div>
                         <div class="bouncing-letters">
                             <span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
@@ -64,36 +60,37 @@ include './inc/multilang.php';
                     </h1>
                 <?php } ?>
             </section>
-            <div><hr>
-
-            </div>
             <!-- <div class="inline-block rounded">
                 <div class="type1">
                     <span1></span1>
                 </div>
             </div> -->
-            <div class="d-flex g-1 pres1 bgc">
-                <p><?php echo $lang['PRESENTATION']; ?></p>
-            </div>
+            <section class="d-flex g-1 pres1 bgc">
+                <div>
+                    <div class="d-flex">
+                        <p><?php echo $lang['PRESENTATION']; ?></p>
+                    </div>
+                </div>
+            </section>
+            <div class="d-flex ai-c spacehr"><hr></div>
 
-            <div><hr></div>
-            <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm" img=url"./>
+            <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm">
                 <div class="f-m backdrop">
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_1']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_1']; ?></p>
                 </div>
                 <div class="f-m d-flex jc-c"><img class="rounded mwimg shadow" src="./images/front-dev-img.jpg" alt="frontdev-img"></div>
             </section>
-            <div><hr></div>
+
             <div class="d-flex g-1 p-1 bgc">
-                <img class="rounded mauto mwlogo shadow" src="./images/figma-logo.png" alt="figma-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/html-logo.png" alt="html-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/css-logo.png" alt="css-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/javascript-logo.png" alt="javascript-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/bootstrap-logo.png" alt="bootstrap-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/wordpress-logo.png" alt="wordpress-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/figma-logo.png" alt="figma-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/html-logo.png" alt="html-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/css-logo.png" alt="css-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/javascript-logo.png" alt="javascript-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/bootstrap-logo.png" alt="bootstrap-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/wordpress-logo.png" alt="wordpress-logo">
             </div>
-            <div><hr></div>
+            <div class="d-flex ai-c spacehr"><hr></div>
             <section class="d-flex f-wraprr g-1 my-4 ai-c">
                 <div class="f-m bgc">
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_2']; ?></h2>
@@ -101,17 +98,17 @@ include './inc/multilang.php';
                 </div>
                 <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/back-dev-img.jpg" alt="backdev-img"></div>
             </section>
-            <div><hr></div>
+
             <div class="d-flex g-1 p-1 bgc">
-                <img class="rounded mauto mwlogo shadow" src="./images/visualstudio-logo.png" alt="visualstudio-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/php-icon.png" alt="php-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/mysql-logo.png" alt="mysql-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/phpmyadmin-logo.png" alt="phpmyadmin-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/apache-logo.png" alt="apache-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/github-logo.png" alt="github-logo">
-                <img class="rounded mauto mwlogo shadow" src="./images/git-logo.png" alt="git-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/visualstudio-logo.png" alt="visualstudio-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/php-icon.png" alt="php-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/mysql-logo.png" alt="mysql-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/phpmyadmin-logo.png" alt="phpmyadmin-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/apache-logo.png" alt="apache-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/github-logo.png" alt="github-logo">
+                <img class="rounded mauto mwlogo shadow zimg" src="./images/git-logo.png" alt="git-logo">
             </div>
-            <div><hr></div>
+            <div class="d-flex ai-c spacehr"><hr></div>
             <div class="d-flex g-1 pres1 bgc">
                 <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
             </div>

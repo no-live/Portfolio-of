@@ -23,9 +23,8 @@ include './inc/formcontrol.php';
 
     <div class="main-container d-flex f-wrap g-1">
         <main id="main" class="bodyc ">
-            <div id="title">
+            <div class="d-flex jc-c">
                 <h1>Formulaire de contact</h1>
-                <p id="description"><em>Demandes en un formulaire</em></p>
             </div>
 
             <form id="formulaire_contact" method="POST" action="contact.php?lang=<?= ($lang['LANG']); ?>">

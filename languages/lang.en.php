@@ -27,8 +27,8 @@ $lang['ASIDE'] = 'Passionate about new technologies, I am open to all projects. 
 
 
 // Contenu
-$lang['PRESENTATION'] = 'My training as a web developer has enabled me to acquire the technical skills essential for the creation and management of websites and web applications. I pay 
-particular attention to data security as well as to create a clear and functional interface.';
+$lang['PRESENTATION'] = 'Developing your website or web application, I put at your disposal my technical skills for the creation and management part of your projects.
+ I pay particular attention to data security and to a clear and functional interface.';
 $lang['PRESENTATION_PROJET'] = 'A few projects in which I participated. Others to come!';
 $lang['ARTICLE_TITLE_1'] = 'Front-end developement';
 $lang['ARTICLE_TITLE_2'] = 'Back-end developement';

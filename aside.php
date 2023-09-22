@@ -9,7 +9,7 @@
             <h2 class="text-center m-0" style="font-size:1.5rem">Olivier FEUERBACH</h2>
             <blockquote class="rounded">
                 <p><i class="fas fa-quote-left"></i><?php echo $lang['ASIDE']; ?>
-                
+
             </blockquote>
             <div class="sm d-flex jc-c g-1">
                 <a class="sm__link" href="#">
@@ -27,7 +27,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="slidesquare">
         <div class="container">
             <div class="sliding-background">
             </div>

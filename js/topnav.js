@@ -36,13 +36,16 @@ function navbtn1(x) {
 navbtn1(x)  //Lance la fonction
 x.addEventListener('change', navbtn1) //Reste à l'écoute d'un changement de x (min-width = 760px)
 
-const asidecenter = document.getElementById("sideleft") 
+const asidecenter = document.getElementById("sideleft");
+const slideoff = document.getElementById("slidesquare") 
 var x = window.matchMedia("(min-width: 905px)");
 function asidesmall(x) {
     if (x.matches) {
         asidecenter.classList.remove('mauto');
+        slideoff.classList.remove('hidden');
     } else {
         asidecenter.classList.add('mauto');
+        slideoff.classList.add('hidden');
 }
 }
 asidesmall(x)
