@@ -29,7 +29,7 @@ $lang['MENU_CALL'] = 'Contactez-moi';
 $lang['ASIDE'] = 'Passionné de nouvelles technologies, je suis ouvert à tous projets! Contactez-moi !👇 ';
 
 // Contenu
-$lang['PRESENTATION'] = 'Développer votre site web ou votre application web, je mets à votre disposition mes compétences techniques pour la partie création et gestion de vos projets.
+$lang['PRESENTATION'] = 'Développez votre site web ou votre application web, je mets à votre disposition mes compétences pour la création et la gestion de vos projets.
  J\'accorde une attention toute particulière à la sécurité des données ainsi qu\'à réaliser une interface claire et fonctionnelle.';
 $lang['PRESENTATION_PROJET'] = 'Quelques projets auxquels j\'ai participé. D\'autres à venir!';
 $lang['ARTICLE_TITLE_1'] = 'Développement front-end';
@@ -45,6 +45,7 @@ $lang['ARTICLE_6'] = '06 FR 🤘 Ut qui adipisicing est cupidatat.Nulla nulla do
 
 //Formulaire
 
+$lang['FORM_TITLE'] = 'Formulaire de contact';
 $lang['FORM_FORM'] = 'Champs obligatoires';
 $lang['FORM_NAME'] = 'Nom';
 $lang['FORM_NAME_HOLD'] = 'Entrez votre nom';

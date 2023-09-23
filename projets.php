@@ -51,6 +51,22 @@ include './inc/multilang.php';
                 </article>
                 <article class="summary f-l shadow">
                     <header class="summary__header">
+                        <video src="./videos/video.mp4" controls poster="./images/image.jpg" muted loop autoplay>
+                            <p>Mettez à jour votre navigateur</p>
+                            <!--Equivalent au "alt", texte en cas d'echec lecture/affichage-->
+                        </video>
+                        <!--poster mets un fond devant la video-->
+                    </header>
+                    <div class="summary__description p-1">
+                        <h2>Calendrier</h2>
+                        <p>Calendrier évènements</p>
+                    </div>
+                    <footer class="summary__footer p-1">
+                        <a href="#">En savoir plus</a>
+                    </footer>
+                </article>
+                <article class="summary f-l shadow">
+                    <header class="summary__header">
                         <video src="./videos/video.mp4"></video>
                     </header>
                     <div class="summary__description p-1">

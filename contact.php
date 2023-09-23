@@ -22,9 +22,9 @@ include './inc/formcontrol.php';
     <?php include("./header.php") ?>
 
     <div class="main-container d-flex f-wrap g-1">
-        <main id="main" class="bodyc ">
-            <div class="d-flex jc-c">
-                <h1>Formulaire de contact</h1>
+        <main id="main" class="bodyc">
+            <div class="d-flex jc-c" id="title">
+                <h1><?php echo $lang['FORM_TITLE']; ?></h1>
             </div>
 
             <form id="formulaire_contact" method="POST" action="contact.php?lang=<?= ($lang['LANG']); ?>">

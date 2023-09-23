@@ -6,6 +6,6 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 <link rel="stylesheet" href="./css/master.css">
 <link rel="stylesheet" href="./css/topnav.css">
-<link rel="stylesheet" href="./css/boxevent.css">
+<!-- <link rel="stylesheet" href="./css/boxevent.css"> -->
 <link rel="stylesheet" href="./css/formcontact.css">
         
