@@ -38,8 +38,9 @@ x.addEventListener('change', navbtn1) //Reste à l'écoute d'un changement de x 
 
 const asidecenter = document.getElementById("sideleft");
 const slideoff = document.getElementById("slidesquare"); 
-const smallmarge = document.getElementById("msm") 
-const smallmarge2 = document.getElementById("msm2") 
+const smallmarge = document.getElementById("msm"); 
+const smallmarge2 = document.getElementById("msm2"); 
+const splashmod = document.getElementById("splash") 
 var x = window.matchMedia("(min-width: 905px)");
 function asidesmall(x) {
     if (x.matches) {
@@ -47,31 +48,21 @@ function asidesmall(x) {
         slideoff.classList.remove('hidden');
         smallmarge.classList.add('my-4');
         smallmarge2.classList.add('my-4');
+        splashmod.classList.remove('smallsc');
+        splashmod.classList.add('fullsc');
     } else {
         asidecenter.classList.add('mauto');
         slideoff.classList.add('hidden');
         smallmarge.classList.remove('my-4');
         smallmarge2.classList.remove('my-4');
+        splashmod.classList.add('smallsc');
+        splashmod.classList.remove('fullsc');
 }
 }
 asidesmall(x)
 x.addEventListener('change', asidesmall)
 
 
-const splashmod = document.getElementById("splash") 
-var x = window.matchMedia("(min-width: 905px)");
-function splashsmall(x) {
-    if (x.matches) {
-        splashmod.classList.remove('smallsc');
-        splashmod.classList.add('fullsc');
-        
-    } else {
-        splashmod.classList.add('smallsc');
-        splashmod.classList.remove('fullsc');
-}
-}
-splashsmall(x)
-x.addEventListener('change', splashsmall)
 
 
 // const actionButton2 = document.querySelector('.bttn');

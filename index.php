@@ -105,10 +105,10 @@ include './inc/multilang.php';
                     <img class="rounded mauto mwlogo shadow zimg" src="./images/git-logo.png" alt="git-logo">
                     <img class="rounded mauto mwlogo shadow zimg" src="./images/apache-logo.png" alt="apache-logo">
                 </div>
-                <div class="d-flex ai-c spacehr">
+                <div class="d-flex ai-c spacehr" id="projetpres">
                     <hr>
                 </div>
-                <div style="height:88px" id="projetpres"></div>
+                <!-- <div style="height:88px" ></div> -->
                 <div class="d-flex g-1 pres1 bgc" >
                     <h2>PROJET</h2>
                         <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
