@@ -37,15 +37,21 @@ navbtn1(x)  //Lance la fonction
 x.addEventListener('change', navbtn1) //Reste à l'écoute d'un changement de x (min-width = 760px)
 
 const asidecenter = document.getElementById("sideleft");
-const slideoff = document.getElementById("slidesquare") 
+const slideoff = document.getElementById("slidesquare"); 
+const smallmarge = document.getElementById("msm") 
+const smallmarge2 = document.getElementById("msm2") 
 var x = window.matchMedia("(min-width: 905px)");
 function asidesmall(x) {
     if (x.matches) {
         asidecenter.classList.remove('mauto');
         slideoff.classList.remove('hidden');
+        smallmarge.classList.add('my-4');
+        smallmarge2.classList.add('my-4');
     } else {
         asidecenter.classList.add('mauto');
         slideoff.classList.add('hidden');
+        smallmarge.classList.remove('my-4');
+        smallmarge2.classList.remove('my-4');
 }
 }
 asidesmall(x)

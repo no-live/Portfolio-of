@@ -69,7 +69,7 @@ include './inc/multilang.php';
                 <div class="d-flex ai-c spacehr">
                     <hr>
                 </div>
-                <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm">
+                <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bgm" id="msm">
                     <div class="f-m backdrop">
                         <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_1']; ?></h2>
                         <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_1']; ?></p>
@@ -88,7 +88,7 @@ include './inc/multilang.php';
                 <div class="d-flex ai-c spacehr">
                     <hr>
                 </div>
-                <section class="d-flex f-wraprr g-1 my-4 ai-c">
+                <section class="d-flex f-wraprr g-1 my-4 ai-c" id="msm2">
                     <div class="f-m bgc">
                         <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_2']; ?></h2>
                         <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_2']; ?></p>
@@ -97,19 +97,22 @@ include './inc/multilang.php';
                 </section>
 
                 <div class="d-flex g-1 p-1 bgc">
-                    <img class="rounded mauto mwlogo shadow zimg" src="./images/visualstudio-logo.png" alt="visualstudio-logo">
                     <img class="rounded mauto mwlogo shadow zimg" src="./images/php-icon.png" alt="php-logo">
                     <img class="rounded mauto mwlogo shadow zimg" src="./images/mysql-logo.png" alt="mysql-logo">
                     <img class="rounded mauto mwlogo shadow zimg" src="./images/phpmyadmin-logo.png" alt="phpmyadmin-logo">
-                    <img class="rounded mauto mwlogo shadow zimg" src="./images/apache-logo.png" alt="apache-logo">
+                    <img class="rounded mauto mwlogo shadow zimg" src="./images/visualstudio-logo.png" alt="visualstudio-logo">
                     <img class="rounded mauto mwlogo shadow zimg" src="./images/github-logo.png" alt="github-logo">
                     <img class="rounded mauto mwlogo shadow zimg" src="./images/git-logo.png" alt="git-logo">
+                    <img class="rounded mauto mwlogo shadow zimg" src="./images/apache-logo.png" alt="apache-logo">
                 </div>
                 <div class="d-flex ai-c spacehr">
                     <hr>
                 </div>
-                <div class="d-flex g-1 pres1 bgc">
-                    <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
+                <div style="height:88px" id="projetpres"></div>
+                <div class="d-flex g-1 pres1 bgc" >
+                    <h2>PROJET</h2>
+                        <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
+                    
                 </div>
                 <section class="d-flex f-wraprr reverse g-1 my-4 bgm">
                     <div class="f-m ai-c jc-c">
