@@ -9,9 +9,9 @@
         <a class="menu__link p-1" href="./contact.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_CONTACT']; ?></a>
     </nav>
     
-    <div class="header-callbtn d-flex">
+    <!-- <div class="header-callbtn d-flex pright" id="contact-header">
         <a class="btn p-1 m-1 shake" href="./contact.php?lang=<?=($lang['LANG']);?>">&nbsp<i class="far fa-envelope">&nbsp</i>&nbsp<?php echo $lang['MENU_CALL']; ?>&nbsp</a>
-    </div>
+    </div> -->
     <!--<div class="main-header__logo">
         <a class="bttn backgroundlog backgroundlog--imgout" href="#">
            <img class="main-header__logo-img anima" src="./images/logo.svg" alt="logo-profil">

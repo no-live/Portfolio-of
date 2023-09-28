@@ -73,8 +73,8 @@ body {
 
 .smallsc{
     min-height: 250px;
-    width:105%;
-    margin-left: -11px;
+    /* width:101%; */
+    /* margin-left: -11px; */
 }
 
 .title-height{
@@ -146,7 +146,7 @@ body {
 aside {
     flex: 1 1 150px;
     max-width: min-content;
-    background-color: #f5f5f7;
+    background-color: #f5f5f700;
     margin-left: 20px;
     
 }

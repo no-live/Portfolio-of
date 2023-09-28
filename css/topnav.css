@@ -216,7 +216,9 @@
 .mw {
     max-width: 1px;
 }
-
+.pright{
+    padding-right: 14%;
+}
 /*ANCHOR DESKTOP*/
 @media screen and (min-width: 905px) {
     .main-header__button{

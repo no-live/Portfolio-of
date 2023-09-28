@@ -18,11 +18,10 @@ include './inc/multilang.php';
 
 <body>
     <?php include("./header.php") ?>
-    <div class="main-container d-flex f-wrap g-1">
+    <div class="main-container d-flex f-wrap g-1 bdeffecttop bdeffect--1080" id="bgeffect">
         <?php include("./aside.php") ?>
-        <main class="p-1 bdeffecttop bdeffect--1080" id="bgeffect">
-
-            <section class="d-flex fullsc jc-c" id="splash">
+        <main class="p-1 ">
+            <section class="d-flex fullsc jc-c mauto" id="splash">
                 <?php
                 if (!isset($_SESSION['lang']) or ($_SESSION['lang']) == 'FR') {
                 ?>
@@ -53,7 +52,7 @@ include './inc/multilang.php';
                             <span>a</span>&nbsp<span>f</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>&nbsp
                         </div>
                         <div class="bouncing-letters">
-                            <span>w</span><span>e</span><span>b</span>
+                            <span>w</span><span>e</span><span>b</span>&nbsp
                         </div>
                         <div class="bouncing-letters">
                             <span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
@@ -103,7 +102,7 @@ include './inc/multilang.php';
                 <img class="rounded mauto mwlogo shadow zimg" src="./images/visualstudio-logo.png" alt="visualstudio-logo">
                 <img class="rounded mauto mwlogo shadow zimg" src="./images/github-logo.png" alt="github-logo">
                 <img class="rounded mauto mwlogo shadow zimg" src="./images/git-logo.png" alt="git-logo">
-                <img class="rounded mauto mwlogo shadow zimg" src="./images/apache-logo.png" alt="apache-logo">
+                <!-- <img class="rounded mauto mwlogo shadow zimg" src="./images/apache-logo.png" alt="apache-logo"> -->
             </div>
             <div class="d-flex ai-c spacehr" id="projetpres">
                 <hr>
@@ -116,42 +115,36 @@ include './inc/multilang.php';
                     <h2>debitis et cupiditate</h2>
                     <p><?php echo $lang['PROJET_1']; ?></p>
                 </div>
-
-
-                <!-- <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div> -->
             </section>
-        
-                <div id="carouselMaterialStyle" class="carousel slide carousel-fade">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner rounded-5 shadow-4-strong">
+            <section class="d-flex f-wraprr g-1 my-4 ai-c">
+                <div id="carouselprojet" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded-2 shadow-4-strong">
                         <div class="carousel-item active">
                             <img src="../Portfolio-of/images/projet1.png" class="d-block w-100" alt="img1_projet" />
                         </div>
-                    </div>
-                    <div class="carousel-inner rounded-5 shadow-4-strong">
                         <div class="carousel-item">
                             <img src="../Portfolio-of/images/Projet2.png" class="d-block w-100" alt="img2_projet" />
                         </div>
-                    </div>
-                    <div class="carousel-inner rounded-5 shadow-4-strong">
                         <div class="carousel-item">
                             <img src="../Portfolio-of/images/Projet3.png" class="d-block w-100" alt="img3_projet" />
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide="prev">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselprojet" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselprojet" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            
+            </section>
+
             <section class="d-flex f-wraprr g-1 my-4">
                 <div class="f-m">
                     <h2>hic omnis itaque</h2>

@@ -41,6 +41,7 @@ const slideoff = document.getElementById("slidesquare");
 const smallmarge = document.getElementById("msm"); 
 const smallmarge2 = document.getElementById("msm2"); 
 const mainbg = document.getElementById("bgeffect"); 
+const smallctbtn = document.getElementById("contact-header"); 
 const splashmod = document.getElementById("splash") 
 var x = window.matchMedia("(min-width: 905px)");
 function asidesmall(x) {
@@ -53,6 +54,7 @@ function asidesmall(x) {
         splashmod.classList.add('fullsc');
         mainbg.classList.add('bdeffect--1080');
         mainbg.classList.remove('bdeffect--320');
+        smallctbtn.classList.add('pright');
     } else {
         asidecenter.classList.add('mauto');
         slideoff.classList.add('hidden');
@@ -62,6 +64,7 @@ function asidesmall(x) {
         splashmod.classList.remove('fullsc');
         mainbg.classList.add('bdeffect--320');
         mainbg.classList.remove('bdeffect--1080');
+        smallctbtn.classList.remove('pright');
     }
 }
 asidesmall(x)
