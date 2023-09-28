@@ -18,10 +18,10 @@
                 <a class="sm__link" href="#">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a class="sm__link" href="#">
+                <a class="sm__link" href="https://github.com/no-live" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a class="sm__link" href="#">
+                <a class="sm__link" href="https://codepen.io/No-Live" target="_blank">
                     <i class="fab fa-codepen"></i>
                 </a>
             </div>

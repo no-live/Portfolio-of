@@ -35,7 +35,9 @@ body {
     /* font-size: large; */
     font-family: 'Nanum Gothic', sans-serif;
     /* font-size: calc(12px + 0.9vmin); */
-    font-size: clamp(0.8rem, 16px, 1.5rem); /*clamp:min,best,max*/
+    /* font-size: clamp(0.8rem, 16px, 1.5rem);  */
+    font-size: clamp(0.8rem, 0.9vw, 2rem);
+    /*clamp:min,best,max*/
     color: var(--lighter);
 }
 
@@ -43,13 +45,23 @@ body {
     background-color: var(--light);
 }
 
-.bdeffect{
-    /* background: linear-gradient(200deg, rgb(119, 119, 119) 0%, rgb(245, 245, 247) 35%); */
-    background: url(../images/bg1.svg);
+.bdeffecttop{
+    background: url(../images/svg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    
+}
+
+.bdeffectbot{
+    /* background: url(../images/svg\(1\).png); */
+    background-repeat: no-repeat;
+    background-size: 100% 8%;
+}
+
+.bdeffect--1080{
+    background-size: 100% 8%;
+}
+
+.bdeffect--320{
+    background-size: 100% 4%;
 }
 
 .fullsc{
@@ -156,8 +168,8 @@ main {
 .bgm {
     /* background-image: url('../images/bodybg.jpg'); */
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
+    /* background-attachment: fixed; */
+    /* background-size:cover; */
     background-color: var(--light);
    
 }
@@ -315,8 +327,8 @@ blockquote i {
     padding: 1rem;
 }
 .my-4{
-    margin-top: 2rem;
-    margin-bottom: 2rem!important;
+    margin-top: 4rem;
+    margin-bottom: 4rem!important;
 }
 .mx {
     margin-left: 1.5rem;

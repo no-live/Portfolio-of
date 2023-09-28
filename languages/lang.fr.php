@@ -38,8 +38,8 @@ $lang['ARTICLE_1'] = 'Je m\'assure de concevoir des sites ou des applications de
 sur toutes les résolutions d\'écrans possibles, qu\'il s\'agisse d\'ordinateurs de bureau, de smartphones ou de tablettes.';
 $lang['ARTICLE_2'] = 'Je suis particulièrement vigilant quant à la sécurité des données qui transitent vers et depuis le serveur. Maintenir à jour les logiciels,
  appliquer des correctifs et suivre l\'actualité de près concernant les dernières innovations sont pour moi une priorité.';
-$lang['PROJET_1'] = '03 FR 🤘 Ut qui adipisicing est cupidatat.Ut Lorem excepteur laborum incididunt et cupidatat ad enim.';
-$lang['PROJET_2'] = '04 FR 🤘 Ut qui adipisicing est cupidatat.Aute irure eiusmod adipisicing veniam aliquip duis.';
+$lang['PROJET_1'] = 'Projet de fin de formation, réalisation d\'un questionnaire d\'étude d\'impact en Php.';
+$lang['PROJET_2'] = 'Réalisation d\'une page statique.';
 $lang['PROJET_3'] = '05 FR 🤘 Ut qui adipisicing est cupidatat.Cupidatat dolor eiusmod duis fugiat fugiat eiusmod nisi excepteur veniam mollit do laboris ipsum adipisicing.';
 $lang['ARTICLE_6'] = '06 FR 🤘 Ut qui adipisicing est cupidatat.Nulla nulla do adipisicing exercitation laborum voluptate.';
 
