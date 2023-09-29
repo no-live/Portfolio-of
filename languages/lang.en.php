@@ -36,11 +36,15 @@ $lang['ARTICLE_1'] = 'As a front-end developer, I make sure to design sites or a
  attractive on all possible screen resolutions, whether they are desktop computers, smartphones or tablets.';
 $lang['ARTICLE_2'] = 'I am particularly vigilant about the security of data that transits to and from the server. Keeping software up to date, applying patches
  and following up-to-date updates on the latest innovations are a priority for me.';
-$lang['PROJET_1'] = '03 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Ut Lorem excepteur laborum incididunt et cupidatat ad enim.';
-$lang['PROJET_2'] = '04 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Aute irure eiusmod adipisicing veniam aliquip duis.';
-$lang['PROJET_3'] = '05 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Cupidatat dolor eiusmod duis fugiat fugiat eiusmod nisi excepteur veniam mollit do laboris ipsum adipisicing.';
-$lang['ARTICLE_6'] = '06 EN 🏴‍☠️ Ut qui adipisicing est cupidatat.Nulla nulla do adipisicing exercitation laborum voluptate.';
-
+ $lang['PROJET_TITLE_1'] = 'Web application: impact assessment questionnaire';
+ $lang['PROJET_1'] = 'End-of-training project, implementation of a Php impact study questionnaire.';
+ $lang['PROJET_TITLE_2'] = 'Website: Static page';
+ $lang['PROJET_2'] = 'Production of a static Internet page, validation Freecodecamp Html/css.';
+ $lang['PROJET_TITLE_3'] = 'Website: contact form';
+ $lang['PROJET_3'] = 'Production of a contact form, validation Freecodecamp Html/css.';
+ $lang['PROJET_TITLE_4'] = 'Website: documentation page';
+ $lang['PROJET_4'] = 'Production of a documentation page on the Javascript language, Freecodecamp Html/css validation.';
+ 
 //Formulaire
 
 $lang['FORM_TITLE'] = 'Contact form';

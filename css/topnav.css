@@ -3,7 +3,7 @@
     display: block;
     visibility: hidden;
     flex: 0 0 300px;
-    gap:10px;
+    gap:170px;
     padding-left: 20px;
 }
 
@@ -220,7 +220,7 @@
     padding-right: 14%;
 }
 /*ANCHOR DESKTOP*/
-@media screen and (min-width: 905px) {
+@media screen and (min-width: 894px) {
     .main-header__button{
         display: none;
     }
@@ -229,7 +229,7 @@
         visibility: visible;
     }
 }
-@media screen and (max-width: 905px) {
+@media screen and (max-width: 893px) {
     .main-header__logo{
         display: none;
     }

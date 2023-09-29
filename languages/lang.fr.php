@@ -38,10 +38,14 @@ $lang['ARTICLE_1'] = 'Je m\'assure de concevoir des sites ou des applications de
 sur toutes les résolutions d\'écrans possibles, qu\'il s\'agisse d\'ordinateurs de bureau, de smartphones ou de tablettes.';
 $lang['ARTICLE_2'] = 'Je suis particulièrement vigilant quant à la sécurité des données qui transitent vers et depuis le serveur. Maintenir à jour les logiciels,
  appliquer des correctifs et suivre l\'actualité de près concernant les dernières innovations sont pour moi une priorité.';
+$lang['PROJET_TITLE_1'] = 'Application web: questionnaire d\'étude d\'impact';
 $lang['PROJET_1'] = 'Projet de fin de formation, réalisation d\'un questionnaire d\'étude d\'impact en Php.';
-$lang['PROJET_2'] = 'Réalisation d\'une page statique.';
-$lang['PROJET_3'] = '05 FR 🤘 Ut qui adipisicing est cupidatat.Cupidatat dolor eiusmod duis fugiat fugiat eiusmod nisi excepteur veniam mollit do laboris ipsum adipisicing.';
-$lang['ARTICLE_6'] = '06 FR 🤘 Ut qui adipisicing est cupidatat.Nulla nulla do adipisicing exercitation laborum voluptate.';
+$lang['PROJET_TITLE_2'] = 'Site internet : page statique';
+$lang['PROJET_2'] = 'Réalisation d\'une page internet statique, validation Freecodecamp Html/css.';
+$lang['PROJET_TITLE_3'] = 'Site internet : formulaire de contact';
+$lang['PROJET_3'] = 'Réalisation d\'un formulaire de contact, validation Freecodecamp Html/css.';
+$lang['PROJET_TITLE_4'] = 'Site internet : page de documentation';
+$lang['PROJET_4'] = 'Réalisation d\'une page de documentation sur le langage Javascript, validation Freecodecamp Html/css.';
 
 //Formulaire
 
@@ -69,6 +73,3 @@ $lang['FORM_MAIL_ERROR'] = 'Saisissez une adresse Email valide';
 $lang['FORM_MAIL_ERROR_2'] = 'Entrez une adresse Email valide';
 $lang['FORM_DROP_ERROR'] = 'Choisissez une option';
 $lang['FORM_COMMENT_ERROR'] = 'Erreur dans le commentaire';
-
-
-?>

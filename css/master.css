@@ -36,7 +36,7 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     /* font-size: calc(12px + 0.9vmin); */
     /* font-size: clamp(0.8rem, 16px, 1.5rem);  */
-    font-size: clamp(0.8rem, 0.9vw, 2rem);
+    font-size: clamp(0.8rem, 0.9vw, 1.5rem);
     /*clamp:min,best,max*/
     color: var(--lighter);
 }
@@ -317,7 +317,7 @@ blockquote i {
 }
 
 .f-m {
-    flex: 1 1 300px;
+    flex: 1 1 290px;
 }
 .f-l {
     flex: 1 1 400px; 
@@ -375,6 +375,12 @@ blockquote i {
     text-decoration: none;
     color: var(--dark);
     padding: 1rem;
+    transition: color 500ms;
+}
+.sm__link:hover {
+    
+    color: #003878;
+    
 }
 
 .card {

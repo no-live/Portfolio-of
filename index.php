@@ -18,9 +18,9 @@ include './inc/multilang.php';
 
 <body>
     <?php include("./header.php") ?>
-    <div class="main-container d-flex f-wrap g-1 bdeffecttop bdeffect--1080" id="bgeffect">
+    <div class="main-container d-flex f-wrap g-1">
         <?php include("./aside.php") ?>
-        <main class="p-1 ">
+        <main class="p-1 bdeffecttop bdeffect--1080" id="bgeffect">
             <section class="d-flex fullsc jc-c mauto" id="splash">
                 <?php
                 if (!isset($_SESSION['lang']) or ($_SESSION['lang']) == 'FR') {
@@ -110,13 +110,13 @@ include './inc/multilang.php';
             <div class="d-flex g-1 pres1 bgc">
                 <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
             </div>
-            <section class="d-flex f-wraprr reverse g-1 my-4 bgm">
+            <section class="d-flex f-wraprr g-1 my-4 bgm">
                 <div class="f-m ai-c jc-c">
-                    <h2>debitis et cupiditate</h2>
+                    <h2><?php echo $lang['PROJET_TITLE_1']; ?></h2>
                     <p><?php echo $lang['PROJET_1']; ?></p>
                 </div>
             </section>
-            <section class="d-flex f-wraprr g-1 my-4 ai-c">
+            <section class="d-flex f-wraprr g-1 my-4 ai-c mauto" style="width:620px">
                 <div id="carouselprojet" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner rounded-2 shadow-4-strong">
                         <div class="carousel-item active">
@@ -147,22 +147,22 @@ include './inc/multilang.php';
 
             <section class="d-flex f-wraprr g-1 my-4">
                 <div class="f-m">
-                    <h2>hic omnis itaque</h2>
+                    <h2><?php echo $lang['PROJET_TITLE_2']; ?></h2>
                     <p><?php echo $lang['PROJET_2']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>
             <section class="d-flex f-wraprr reverse g-1 my-4">
                 <div class="f-m">
-                    <h2>debitis et cupiditate</h2>
+                    <h2><?php echo $lang['PROJET_TITLE_3']; ?></h2>
                     <p><?php echo $lang['PROJET_3']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>
             <section class="d-flex f-wraprr g-1 my-4">
                 <div class="f-m">
-                    <h2>hic omnis itaque</h2>
-                    <p><?php echo $lang['ARTICLE_6']; ?></p>
+                    <h2><?php echo $lang['PROJET_TITLE_4']; ?></h2>
+                    <p><?php echo $lang['PROJET_4']; ?></p>
                 </div>
                 <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
             </section>

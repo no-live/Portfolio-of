@@ -18,7 +18,7 @@ actionButton.addEventListener("click", function(event){
 })
 
 
-var x = window.matchMedia("(min-width: 905px)");
+var x = window.matchMedia("(min-width: 894px)");
 
 function navbtn1(x) {
     if (x.matches) {
@@ -41,9 +41,8 @@ const slideoff = document.getElementById("slidesquare");
 const smallmarge = document.getElementById("msm"); 
 const smallmarge2 = document.getElementById("msm2"); 
 const mainbg = document.getElementById("bgeffect"); 
-const smallctbtn = document.getElementById("contact-header"); 
 const splashmod = document.getElementById("splash") 
-var x = window.matchMedia("(min-width: 905px)");
+var x = window.matchMedia("(min-width: 894px)");
 function asidesmall(x) {
     if (x.matches) {
         asidecenter.classList.remove('mauto');
@@ -53,8 +52,8 @@ function asidesmall(x) {
         splashmod.classList.remove('smallsc');
         splashmod.classList.add('fullsc');
         mainbg.classList.add('bdeffect--1080');
+        mainbg.classList.add('bdeffecttop');
         mainbg.classList.remove('bdeffect--320');
-        smallctbtn.classList.add('pright');
     } else {
         asidecenter.classList.add('mauto');
         slideoff.classList.add('hidden');
@@ -64,13 +63,17 @@ function asidesmall(x) {
         splashmod.classList.remove('fullsc');
         mainbg.classList.add('bdeffect--320');
         mainbg.classList.remove('bdeffect--1080');
-        smallctbtn.classList.remove('pright');
+        mainbg.classList.remove('bdeffecttop');
     }
 }
 asidesmall(x)
 x.addEventListener('change', asidesmall)
 
 
+
+// const smallctbtn = document.getElementById("contact-header"); 
+// smallctbtn.classList.add('pright');
+// smallctbtn.classList.remove('pright');
 
 
 // const actionButton2 = document.querySelector('.bttn');
