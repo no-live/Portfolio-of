@@ -68,7 +68,7 @@ include './inc/multilang.php';
             <div class="d-flex ai-c spacehr">
                 <hr>
             </div>
-            <section class="d-flex f-wraprr reverse g-1 my-4 ai-c bdeffectbot" id="msm">
+            <section class="d-flex f-wraprr reverse g-1 my-4 ai-c" id="msm">
                 <div class="f-m backdrop">
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_1']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_1']; ?></p>
@@ -110,39 +110,17 @@ include './inc/multilang.php';
             <div class="d-flex g-1 pres1 bgc">
                 <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
             </div>
-            <section class="d-flex f-wraprr g-1 my-4 bgm">
+            <section class="d-flex f-wrap reverse g-1 my-4 bgm">
                 <div class="f-m ai-c jc-c">
                     <h2><?php echo $lang['PROJET_TITLE_1']; ?></h2>
                     <p><?php echo $lang['PROJET_1']; ?></p>
                 </div>
+                <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/Staticpage.png" alt="staticpage-img"></div>
             </section>
-            <section class="d-flex f-wraprr g-1 my-4 ai-c mauto" style="max-width:620px">
-                <div id="carouselprojet" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
-                    <div class="carousel-inner rounded-2 shadow-4-strong">
-                        <div class="carousel-item active">
-                            <img src="../Portfolio-of/images/projet1.png" class="d-block w-100" alt="img1_projet" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Portfolio-of/images/Projet2.png" class="d-block w-100" alt="img2_projet" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Portfolio-of/images/Projet3.png" class="d-block w-100" alt="img3_projet" />
-                        </div>
-                    </div>
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselprojet" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselprojet" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+            <section class="d-flex f-wraprr g-1 my-4 ai-c mauto" style="max-width:920px">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projetModal">
+                    Launch demo modal
+                </button>
             </section>
 
             <section class="d-flex f-wrap g-1 my-4">
@@ -175,5 +153,47 @@ include './inc/multilang.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
+
+<div class="modal" id="projetModal" tabindex="-1" aria-labelledby="projetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header jc-c">
+                <h2 class="modal-title" id="projetModalLabel">Questionnaire Php</h2>
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+            <div class="modal-body">
+                <div id="carouselprojet" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel" data-interval="false">
+                    <div class="carousel-inner rounded-2 shadow-4-strong">
+                        <div class="carousel-item active">
+                            <img src="../Portfolio-of/images/projet1.png" class="d-block w-100" alt="img1_projet" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Portfolio-of/images/Projet2.png" class="d-block w-100" alt="img2_projet" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Portfolio-of/images/Projet3.png" class="d-block w-100" alt="img3_projet" />
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselprojet" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselprojet" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </html>

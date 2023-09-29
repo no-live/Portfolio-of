@@ -50,8 +50,8 @@ body {
     background-repeat: no-repeat;
 }
 
-.bdeffectbot{
-    /* background: url(../images/svg\(1\).png); */
+.bdeffectleft{
+    background: url(../images/wave-right.png);
     background-repeat: no-repeat;
     background-size: 100% 8%;
 }
@@ -463,6 +463,34 @@ blockquote i {
     transform: scale(1.5);
 
 }
+
+.carousel-indicators {
+    position:absolute;
+    right:0;
+    bottom: -23px!important;
+    left:0;
+    z-index:2;
+    display:flex;
+    justify-content:center;
+    padding:0;
+    margin-right:15%;
+    margin-bottom:1rem;
+    margin-left:15%
+  }
+
+.modal-footer {
+    display:flex;
+    flex-shrink:0;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    padding:calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5);
+    background-color:var(--bs-modal-footer-bg);
+    border-top:var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+    border-bottom-right-radius:var(--bs-modal-inner-border-radius);
+    border-bottom-left-radius:var(--bs-modal-inner-border-radius)
+}
+  
 /*ANCHOR Parents grille*/
 .form-contact {
     width:100%;
