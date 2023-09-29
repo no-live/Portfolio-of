@@ -17,7 +17,7 @@ $lang['Spb'] = 'hidden';
 // Menu
 
 $lang['MENU_HOME'] = 'Acceuil';
-//$lang['MENU_ABOUT_US'] = 'About Us';
+$lang['MENU_ABOUT'] = 'À propos';
 $lang['MENU_PROJECTS'] = 'Projets';
 //$lang['MENU_CONTACT_US'] = 'Contact Us';
 $lang['MENU_CONTACT'] = 'Contact';
@@ -45,7 +45,7 @@ $lang['PROJET_2'] = 'Réalisation d\'une page internet statique, validation Free
 $lang['PROJET_TITLE_3'] = 'Site internet : formulaire de contact';
 $lang['PROJET_3'] = 'Réalisation d\'un formulaire de contact, validation Freecodecamp Html/css.';
 $lang['PROJET_TITLE_4'] = 'Site internet : page de documentation';
-$lang['PROJET_4'] = 'Réalisation d\'une page de documentation sur le langage Javascript, validation Freecodecamp Html/css.';
+$lang['PROJET_4'] = 'Réalisation d\'une page de documentation, validation Freecodecamp Html/css.';
 
 //Formulaire
 

@@ -146,21 +146,21 @@ include './inc/multilang.php';
             </section>
 
             <section class="d-flex f-wrap g-1 my-4">
-                <div class="f-m d-flex f-wrap jc-c bgc">
+                <div class="f-m d-flex f-wrap jc-c ai-c bgc">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_2']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_2']; ?></p>
                 </div>
                 <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/Staticpage.png" alt="staticpage-img"></div>
             </section>
             <section class="d-flex f-wrap reverse g-1 my-4">
-                <div class="f-m d-flex f-wrap jc-c bgc">
+                <div class="f-m d-flex f-wrap jc-c ai-c bgc">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_3']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_3']; ?></p>
                 </div>
                 <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/Formfcc.png" alt="formulaire-img"></div>
             </section>
             <section class="d-flex f-wrap g-1 my-4">
-                <div class="f-m d-flex f-wrap jc-c bgc">
+                <div class="f-m d-flex f-wrap jc-c ai-c bgc">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_4']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_4']; ?></p>
                 </div>

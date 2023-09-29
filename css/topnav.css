@@ -14,18 +14,21 @@
     color: var(--white);
     transition: color 500ms;
     text-transform: uppercase;
+    width: max-content;
 }
 
 .menu__link:hover {
     color: var(--primary);
 
 }
+
 .main-header__button {
     /* padding: 1rem; */
     font-size: 1rem;
     flex: 0 0 50px;
     margin-left: 1rem;
 }
+
 .main-header__toggle {
     /* padding: 1rem; */
     font-size: 2rem;
@@ -216,9 +219,12 @@
 .mw {
     max-width: 1px;
 }
+
 .pright{
     padding-right: 14%;
 }
+
+
 /*ANCHOR DESKTOP*/
 @media screen and (min-width: 894px) {
     .main-header__button{

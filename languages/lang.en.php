@@ -16,12 +16,12 @@ $lang['Spb'] = 'hidden';
 // Menu
 
 $lang['MENU_HOME'] = 'Home';
-//$lang['MENU_ABOUT_US'] = 'About Us';
+$lang['MENU_ABOUT'] = 'About';
 $lang['MENU_PROJECTS'] = 'Projects';
-//$lang['MENU_CONTACT_US'] = 'Contact Us';
 $lang['MENU_CONTACT'] = 'Contact';
 //$lang['MENU_SITE_MAP'] = 'Site Map';
 $lang['MENU_CALL'] = 'Contact me';
+
 // Aside
 $lang['ASIDE'] = 'Passionate about new technologies, I am open to all projects. Contact me 👇👇👇 ! ';
 
@@ -43,7 +43,7 @@ $lang['ARTICLE_2'] = 'I am particularly vigilant about the security of data that
  $lang['PROJET_TITLE_3'] = 'Website: contact form';
  $lang['PROJET_3'] = 'Production of a contact form, validation Freecodecamp Html/css.';
  $lang['PROJET_TITLE_4'] = 'Website: documentation page';
- $lang['PROJET_4'] = 'Production of a documentation page on the Javascript language, Freecodecamp Html/css validation.';
+ $lang['PROJET_4'] = 'Production of a documentation page, Freecodecamp Html/css validation.';
  
 //Formulaire
 
