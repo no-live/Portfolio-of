@@ -116,7 +116,7 @@ include './inc/multilang.php';
                     <p><?php echo $lang['PROJET_1']; ?></p>
                 </div>
             </section>
-            <section class="d-flex f-wraprr g-1 my-4 ai-c mauto" style="width:620px">
+            <section class="d-flex f-wraprr g-1 my-4 ai-c mauto" style="max-width:620px">
                 <div id="carouselprojet" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner rounded-2 shadow-4-strong">
                         <div class="carousel-item active">
@@ -145,26 +145,26 @@ include './inc/multilang.php';
                 </div>
             </section>
 
-            <section class="d-flex f-wraprr g-1 my-4">
-                <div class="f-m">
-                    <h2><?php echo $lang['PROJET_TITLE_2']; ?></h2>
-                    <p><?php echo $lang['PROJET_2']; ?></p>
+            <section class="d-flex f-wrap g-1 my-4">
+                <div class="f-m d-flex f-wrap jc-c bgc">
+                    <h2 class="text-center"><?php echo $lang['PROJET_TITLE_2']; ?></h2>
+                    <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_2']; ?></p>
                 </div>
-                <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
+                <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/Staticpage.png" alt="staticpage-img"></div>
             </section>
-            <section class="d-flex f-wraprr reverse g-1 my-4">
-                <div class="f-m">
-                    <h2><?php echo $lang['PROJET_TITLE_3']; ?></h2>
-                    <p><?php echo $lang['PROJET_3']; ?></p>
+            <section class="d-flex f-wrap reverse g-1 my-4">
+                <div class="f-m d-flex f-wrap jc-c bgc">
+                    <h2 class="text-center"><?php echo $lang['PROJET_TITLE_3']; ?></h2>
+                    <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_3']; ?></p>
                 </div>
-                <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
+                <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/Formfcc.png" alt="formulaire-img"></div>
             </section>
-            <section class="d-flex f-wraprr g-1 my-4">
-                <div class="f-m">
-                    <h2><?php echo $lang['PROJET_TITLE_4']; ?></h2>
-                    <p><?php echo $lang['PROJET_4']; ?></p>
+            <section class="d-flex f-wrap g-1 my-4">
+                <div class="f-m d-flex f-wrap jc-c bgc">
+                    <h2 class="text-center"><?php echo $lang['PROJET_TITLE_4']; ?></h2>
+                    <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_4']; ?></p>
                 </div>
-                <div class="f-m"><img src="./images/image.jpg" alt="Lorem"></div>
+                <div class="f-m d-flex jc-c bgc"><img class="rounded mwimg shadow" src="./images/Docfcc.png" alt="documentation-img"></div>
             </section>
 
         </main>
