@@ -7,7 +7,7 @@
         <a class="menu__link p-1" href="./index.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_HOME']; ?></a>
         <a class="menu__link p-1" href="./index.php?lang=<?=($lang['LANG']);?>#projetpres">&nbsp<?php echo $lang['MENU_PROJECTS']; ?></a>
         <a class="menu__link p-1" href="./contact.php?lang=<?=($lang['LANG']);?>">&nbsp<?php echo $lang['MENU_CONTACT']; ?></a>
-        <a class="menu__link p-1" href="./index.php?lang=<?=($lang['LANG']);?>#projetpres">&nbsp<?php echo $lang['MENU_ABOUT']; ?></a>
+        <a class="menu__link p-1" href="./index.php?lang=<?=($lang['LANG']);?>#about">&nbsp<?php echo $lang['MENU_ABOUT']; ?></a>
     </nav>
     
     <!-- <div class="header-callbtn d-flex pright" id="contact-header">
