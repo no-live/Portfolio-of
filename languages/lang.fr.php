@@ -29,6 +29,7 @@ $lang['MENU_CALL'] = 'Contactez-moi';
 $lang['ASIDE'] = 'Passionné de nouvelles technologies, je suis ouvert à tous projets! Contactez-moi !👇 ';
 
 // Contenu
+
 $lang['PRESENTATION'] = 'Développez votre site web ou votre application web, je mets à votre disposition mes compétences pour la création et la gestion de vos projets.
  J\'accorde une attention toute particulière à la sécurité des données ainsi qu\'à réaliser une interface claire et fonctionnelle.';
 $lang['PRESENTATION_PROJET'] = 'Quelques projets auxquels j\'ai participé. D\'autres à venir!';
@@ -46,6 +47,8 @@ $lang['PROJET_TITLE_3'] = 'Site internet : formulaire de contact';
 $lang['PROJET_3'] = 'Réalisation d\'un formulaire de contact, validation Freecodecamp Html/css.';
 $lang['PROJET_TITLE_4'] = 'Site internet : page de documentation';
 $lang['PROJET_4'] = 'Réalisation d\'une page de documentation, validation Freecodecamp Html/css.';
+$lang['MODAL_CLOSE'] = 'Fermer';
+
 
 //Formulaire
 

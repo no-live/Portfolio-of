@@ -44,10 +44,15 @@ body {
     background-repeat: no-repeat;
 }
 
+.bdeffectright{
+    background: rgb(124,124,124);
+background: linear-gradient(90deg, rgba(124, 124, 124, 0) 40%, rgba(124,124,124,0.1) 60%, rgba(124,124,124,0.2) 85%, rgba(124,124,124,0.3) 100%);
+
+}
+
 .bdeffectleft{
-    background: url(../images/wave-right.png);
-    background-repeat: no-repeat;
-    background-size: 100% 8%;
+    background: rgb(124,124,124);
+background: linear-gradient(-90deg, rgba(124, 124, 124, 0) 40%, rgba(124,124,124,0.1) 60%, rgba(124,124,124,0.2) 85%, rgba(124,124,124,0.3) 100%);
 }
 
 .bdeffect--1080{
@@ -213,6 +218,7 @@ main{
     max-width: clamp(4rem, 5vw, 10rem);
     padding:5px;
 }
+
 .overlay{
     position: absolute; 
     bottom: 0; 
@@ -227,13 +233,11 @@ main{
     border-bottom-right-radius: 5px;
     cursor: zoom-in;
     font-size: 16px;
-    /* text-transform: lowercase!important; */
 }
+
 section:nth-child(n+11)>div:nth-child(2):hover .overlay{
     opacity: 1;
 }
-
-
 
 hr {
     
@@ -261,7 +265,7 @@ h6 {
 
 h2 {
     font-family: 'Barrio', cursive;
-    font-size: clamp(1.2rem, 1.2vw, 5.5rem)!important;
+    font-size: clamp(1rem, 1vw, 5.5rem)!important;
     font-weight: 900;
 }
 
@@ -361,7 +365,7 @@ blockquote i {
 }
 
 .pad-3{
-    padding:3%;
+    padding:4%;
 }
 
 .my-4{
@@ -429,7 +433,7 @@ blockquote i {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.41);
     position: sticky  !important;
     top: calc(var(--header-height) + 20px);
-    background-color:rgba(124, 124, 124, 0.445);
+    background-color:#7c7c7c71;
     z-index: 1;
 }
 
@@ -517,7 +521,7 @@ blockquote i {
 .carousel-indicators {
     position:absolute;
     right:0;
-    bottom: -23px!important;
+    bottom: -35px!important;
     left:0;
     z-index:2;
     display:flex;
@@ -540,7 +544,48 @@ blockquote i {
     border-bottom-right-radius:var(--bs-modal-inner-border-radius);
     border-bottom-left-radius:var(--bs-modal-inner-border-radius)
 }
-  
+
+.btnmodal {
+    /* display: inline-block; */
+    /* padding: 0.5rem 0.5rem; */
+    background-color: transparent;
+    border: 3px solid #3d3d3d71;
+    border-radius: 4px;
+    color: #3d3d3d71;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: border 500ms, background 500ms, transform 500ms;
+    font-size: clamp(0.5rem, 0.5vw, 2rem);
+}
+
+
+.btnmodal:hover {
+    background-color: #3d3d3d71;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    color: var(--light);
+    -ms-transform: scale(1.06); 
+    -webkit-transform: scale(1.06); 
+    transform: scale(1.06);
+}
+
+.btnmodalctrl{
+    background-color: transparent;
+    border: 0.1px solid transparent;
+    color: #3d3d3d71;
+    text-decoration: none;
+    transition: transform 500ms;
+    margin: auto;
+}
+
+.btnmodalctrl:hover{
+    color: var(--light);
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+
 /*ANCHOR Parents grille*/
 .form-contact {
     width:100%;

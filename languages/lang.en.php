@@ -44,6 +44,7 @@ $lang['ARTICLE_2'] = 'I am particularly vigilant about the security of data that
  $lang['PROJET_3'] = 'Production of a contact form, validation Freecodecamp Html/css.';
  $lang['PROJET_TITLE_4'] = 'Website: documentation page';
  $lang['PROJET_4'] = 'Production of a documentation page, Freecodecamp Html/css validation.';
+ $lang['MODAL_CLOSE'] = 'Close';
  
 //Formulaire
 

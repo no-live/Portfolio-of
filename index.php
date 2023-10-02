@@ -110,7 +110,7 @@ include './inc/multilang.php';
             <div class="d-flex g-1 pres3 bgc">
                 <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
             </div>
-            <section class="d-flex f-wrap reverse g-1 pad-3 border-right">
+            <section class="d-flex f-wrap reverse g-1 pad-3 border-right bdeffectright">
                 <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_1']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_1']; ?></p>
@@ -120,7 +120,7 @@ include './inc/multilang.php';
                     <div class="overlay mwimg" data-bs-toggle="modal" data-bs-target="#projetModal">Agrandir</div>
                 </div>
             </section>
-            <section class="d-flex f-wrap g-1 pad-3 border-left">
+            <section class="d-flex f-wrap g-1 pad-3 border-left bdeffectleft">
                 <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_2']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_2']; ?></p>
@@ -130,7 +130,7 @@ include './inc/multilang.php';
                     <div class="overlay mwimg" data-bs-toggle="modal" data-bs-target="#staticModal">Agrandir</div>
                 </div>
             </section>
-            <section class="d-flex f-wrap reverse g-1 pad-3 border-right">
+            <section class="d-flex f-wrap reverse g-1 pad-3 border-right bdeffectright">
                 <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_3']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_3']; ?></p>
@@ -140,7 +140,7 @@ include './inc/multilang.php';
                     <div class="overlay mwimg" data-bs-toggle="modal" data-bs-target="#contactModal">Agrandir</div>
                 </div>
             </section>
-            <section class="d-flex f-wrap g-1 pad-3 border-left">
+            <section class="d-flex f-wrap g-1 pad-3 border-left bdeffectleft">
                 <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_4']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_4']; ?></p>
@@ -199,17 +199,25 @@ include './inc/multilang.php';
                                     <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="4" aria-label="Slide 5"></button>
                                 </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselprojet" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
+                                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span> -->
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselprojet" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
+                                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span> -->
                                     </button>
+                                </div>
                             </div>
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <div class="modal-footer">
+                        <button class="btnmodalctrl carousel-dark" type="button" data-bs-target="#carouselprojet" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button type="button" class="btnmodal btn-secondary" data-bs-dismiss="modal"><?php echo $lang['MODAL_CLOSE']; ?></button>
+                        <button class="btnmodalctrl carousel-dark" type="button" data-bs-target="#carouselprojet" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -225,7 +233,7 @@ include './inc/multilang.php';
                                 <img class="rounded" src="./images/Staticpage.png" alt="staticpage-img">
                             </div>
                         <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btnmodal btn-secondary" data-bs-dismiss="modal"><?php echo $lang['MODAL_CLOSE']; ?></button>
                     </div>
                 </div>
             </div>
@@ -241,7 +249,7 @@ include './inc/multilang.php';
                                 <img class="rounded" src="./images/Formfcc.png" alt="formulaire-img">
                             </div>
                         <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btnmodal btn-secondary" data-bs-dismiss="modal"><?php echo $lang['MODAL_CLOSE']; ?></button>
                     </div>
                 </div>
             </div>
@@ -257,7 +265,7 @@ include './inc/multilang.php';
                             <img class="rounded" src="./images/Docfcc.png" alt="documentation-img">
                             </div>
                         <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btnmodal btn-secondary" data-bs-dismiss="modal"><?php echo $lang['MODAL_CLOSE']; ?></button>
                     </div>
                 </div>
             </div>
