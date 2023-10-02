@@ -107,21 +107,21 @@ include './inc/multilang.php';
             <div class="d-flex ai-c spacehr" id="projetpres">
                 <hr>
             </div>
-            <div class="d-flex g-1 pres1 bgc">
+            <div class="d-flex g-1 pres3 bgc">
                 <p><?php echo $lang['PRESENTATION_PROJET']; ?></p>
             </div>
-            <section class="d-flex f-wrap reverse g-1 my-4 bgm">
-                <div class="f-m d-flex f-wrap ai-c jc-c">
+            <section class="d-flex f-wrap reverse g-1 pad-3 border-right">
+                <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_1']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_1']; ?></p>
                 </div>
                 <div class="f-m d-flex jc-c relative zimgsm">
-                    <img class="rounded mwimg shadow" src="./images/Staticpage.png" alt="staticpage-img">
+                    <img class="rounded mwimg shadow" src="./images/Projet1.png" alt="staticpage-img">
                     <div class="overlay mwimg" data-bs-toggle="modal" data-bs-target="#projetModal">Agrandir</div>
                 </div>
             </section>
-            <section class="d-flex f-wrap g-1 my-4">
-                <div class="f-m d-flex f-wrap jc-c ai-c bgc">
+            <section class="d-flex f-wrap g-1 pad-3 border-left">
+                <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_2']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_2']; ?></p>
                 </div>
@@ -130,8 +130,8 @@ include './inc/multilang.php';
                     <div class="overlay mwimg" data-bs-toggle="modal" data-bs-target="#staticModal">Agrandir</div>
                 </div>
             </section>
-            <section class="d-flex f-wrap reverse g-1 my-4">
-                <div class="f-m d-flex f-wrap jc-c ai-c bgc">
+            <section class="d-flex f-wrap reverse g-1 pad-3 border-right">
+                <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_3']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_3']; ?></p>
                 </div>
@@ -140,8 +140,8 @@ include './inc/multilang.php';
                     <div class="overlay mwimg" data-bs-toggle="modal" data-bs-target="#contactModal">Agrandir</div>
                 </div>
             </section>
-            <section class="d-flex f-wrap g-1 my-4">
-                <div class="f-m d-flex f-wrap jc-c ai-c bgc">
+            <section class="d-flex f-wrap g-1 pad-3 border-left">
+                <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['PROJET_TITLE_4']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['PROJET_4']; ?></p>
                 </div>
@@ -161,7 +161,6 @@ include './inc/multilang.php';
     </div>
 
     <?php include("./footer.php") ?>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
@@ -177,7 +176,7 @@ include './inc/multilang.php';
                             <div id="carouselprojet" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel" data-interval="false">
                                 <div class="carousel-inner rounded-2 shadow-4-strong">
                                     <div class="carousel-item active">
-                                        <img src="../Portfolio-of/images/projet1.png" class="d-block w-100" alt="img1_projet" />
+                                        <img src="../Portfolio-of/images/Projet1.png" class="d-block w-100" alt="img1_projet" />
                                     </div>
                                     <div class="carousel-item">
                                         <img src="../Portfolio-of/images/Projet2.png" class="d-block w-100" alt="img2_projet" />
@@ -185,11 +184,19 @@ include './inc/multilang.php';
                                     <div class="carousel-item">
                                         <img src="../Portfolio-of/images/Projet3.png" class="d-block w-100" alt="img3_projet" />
                                     </div>
+                                    <div class="carousel-item">
+                                        <img src="../Portfolio-of/images/Projet4.png" class="d-block w-100" alt="img4_projet" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../Portfolio-of/images/Projet5.png" class="d-block w-100" alt="img5_projet" />
+                                    </div>
                                 </div>
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carouselprojet" data-bs-slide-to="4" aria-label="Slide 5"></button>
                                 </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselprojet" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
