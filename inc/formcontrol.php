@@ -1,7 +1,7 @@
 <?php
 require_once 'multilang.php';
-$testretour = 'Wait...';
-// var_dump($_POST);
+$retour = 'Wait...';
+var_dump($_POST);
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
 
     $nameError = '';
@@ -50,8 +50,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
             $valid = false;
     }
     if ($valid) {
-        $testretour = 'Merci ! ✔';
+        $retour = '✔ Merci !';
     }
     
-    // var_dump($valid, $nameError, $emailError, $dropError, $commentError);
+    var_dump($valid, $nameError, $emailError, $dropError, $commentError);
 }
+

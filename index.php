@@ -69,7 +69,7 @@ include './inc/multilang.php';
                 <hr>
             </div>
             <section class="d-flex f-wraprr reverse g-1 my-4 ai-c" id="msm">
-                <div class="f-m backdrop">
+                <div class="f-m">
                     <h2 class="text-center"><?php echo $lang['ARTICLE_TITLE_1']; ?></h2>
                     <p class="d-flex g-1 pres2"><?php echo $lang['ARTICLE_1']; ?></p>
                 </div>
@@ -154,17 +154,21 @@ include './inc/multilang.php';
                 <hr>
             </div>
             <section>
+                    <p class="pres1">A travers mes formations en informatique et mes expériences professionnelles, j'ai acquis de solides connaissances sur l'univers du numérique. Je me spécialise dorénavant dans le développement de site internet et d'application web. 
+                        Créatif et rigoureux, j'aime partager mes idées afin d'aboutir à une solution fonctionnelle.</p>
 
+                    <p class="pres1">Résidant actuellement à Marseille, je suis à la recherche de nouveaux projets envers lesquelles je souhaite consacrer toute mon attention. 
+                        Le reste du temps je m'adonne à mes autres passions qui sont pour moi autant de sources d'inspiration: le cinéma, la musique que je pratique en amateur, et quelques balades à moto. Et lorsque l'envie se fait sentir j'aime me défouler sur un terrain de basket!</p>
+                    <p>
 
+                    </p>
             </section>
         </main>
     </div>
-
     <?php include("./footer.php") ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
-
             <div class="modal" id="projetModal" tabindex="-1" aria-labelledby="projetModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-xl">
                     <div class="modal-content">

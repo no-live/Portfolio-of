@@ -65,7 +65,7 @@ $lang['FORM_DROP_OPTION2'] = 'Proposition de projet';
 $lang['FORM_DROP_OPTION3'] = 'Ne préfère pas répondre';
 $lang['FORM_DROP_OPTION4'] = 'Bot';
 $lang['FORM_COMMENT'] = 'Laissez un commentaire';
-$lang['FORM_COMMENT_LABEL'] = 'Entrez votre commentaire ici';
+$lang['FORM_COMMENT_LABEL'] = 'Entrez votre commentaire ici, max. 256 charactères';
 $lang['FORM_SUBMIT'] = 'Envoyez';
 
 //Formulaire erreur

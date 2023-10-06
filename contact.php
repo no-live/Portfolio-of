@@ -29,8 +29,8 @@ include './inc/formcontrol.php';
 
             <form id="formulaire_contact" method="POST" action="contact.php?lang=<?= ($lang['LANG']); ?>">
                 <div class="group <?php echo !empty($nameError) ? 'error' : ''; ?>"> <!--//ajoute une classe 'error'-->
-                    <label id="name-label" for="name"><?php echo $lang['FORM_NAME']; ?><sup style="color:red">&nbsp*</sup></label>
-                    <input id="name" class="form <?php echo !empty($nameError) ? 'No-valid' : ''; ?> <?php echo empty($nameError) && !empty($name) ? 'Valid' : ''; ?> " type="text" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
+                    <label id="name-label" for="emailname"><?php echo $lang['FORM_NAME']; ?><sup style="color:red">&nbsp*</sup></label>
+                    <input id="emailname" class="form <?php echo !empty($nameError) ? 'No-valid' : ''; ?> <?php echo empty($nameError) && !empty($name) ? 'Valid' : ''; ?> " type="text" name="name" placeholder="<?php echo $lang['FORM_NAME_HOLD']; ?>" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
                     <?php if (!empty($nameError)) : ?>
                         <span class="dserror d-flex"><?php echo $nameError; ?></span>
                     <?php endif; ?>
@@ -70,72 +70,10 @@ include './inc/formcontrol.php';
                 </div>
                 <!-- <br> -->
                 <p style="font-size: smaller;"><em><sup style="color:red">*&nbsp</sup><?php echo $lang['FORM_FORM']; ?></em></p>
-                <hr>
-                <div class="group2">
-                    <p>Which option best describes your current role?</p>
-                    <select id="most-like" name="mostLike" class="form">
-                        <option disabled="" selected="" value="">Select an option</option>
-                        <option value="challenges">Challenges</option>
-                        <option value="projects">Projects</option>
-                        <option value="community">Community</option>
-                        <option value="openSource">Open Source</option>
-                    </select>
-                </div>
-                <div class="group2">
-                    <p>What would you like to see improved? (Check all that apply)</p>
-                    <label>
-                        <input name="fav" value="Front-end Projects" type="checkbox">
-                        Front-end Projects
-                    </label>
-                    <label>
-                        <input name="fav" value="Back-end Projects" type="checkbox">
-                        Back-end Projects
-                    </label>
-                    <label>
-                        <input name="fav" value="Data Visualization" type="checkbox">
-                        Data Visualization
-                    </label>
-                    <label>
-                        <input name="fav" value="Challenges" type="checkbox">
-                        Challenges
-                    </label>
-                    <label>
-                        <input name="fav" value="Open Source Community" type="checkbox">
-                        Open Source Community
-                    </label>
-                    <label>
-                        <input name="fav" value="Gitter help rooms" type="checkbox">
-                        Gitter help rooms
-                    </label>
-                    <label>
-                        <input name="fav" value="Videos" type="checkbox">
-                        Videos
-                    </label>
-                    <label>
-                        <input name="fav" value="Data Visualization" type="checkbox">
-                        Data Visualization
-                    </label>
-                    <label>
-                        <input name="fav" value="City Meetups" type="checkbox">
-                        City Meetups
-                    </label>
-                    <label>
-                        <input name="fav" value="Wiki" type="checkbox">
-                        Wiki
-                    </label>
-                    <label>
-                        <input name="fav" value="Forum" type="checkbox">
-                        Forum
-                    </label>
-                    <label>
-                        <input name="fav" value="Additional Courses" type="checkbox">
-                        Additional Courses
-                    </label>
-                </div>
-
+                <hr style="border-color:gray">
                 <div class="group">
                     <label for="comment"><?php echo $lang['FORM_COMMENT']; ?></label>
-                    <textarea id="comments" class="input-textarea <?php echo !empty($commentError) ? 'No-valid' : ''; ?>" name="comment" placeholder="<?php echo $lang['FORM_COMMENT_LABEL']; ?>" value="<?php echo isset($_POST['comment']) ? $_POST['comment'] : '' ?>"></textarea>
+                    <textarea maxlength="256" id="comments" class="input-textarea <?php echo !empty($commentError) ? 'No-valid' : ''; ?>" name="comment" placeholder="<?php echo !empty($comment) ? $_POST['comment'] : $lang['FORM_COMMENT_LABEL']; ?>" ></textarea>
                     <?php if (!empty($commentError)) : ?>
                         <span class="dserror d-flex"><?php echo $commentError; ?></span>
                     <?php endif; ?>
@@ -143,7 +81,12 @@ include './inc/formcontrol.php';
                 <?php
                 if ((isset($valid)) && $valid == 'true') {
                 ?>
-                    <a class="btn btn-secondary" href="./index.php?lang=<?= ($lang['LANG']); ?>"><?php echo $testretour; ?></a>
+                    <div class="d-flex jc-c">
+                        <div class="alert alert-success" style="margin-top:60px; max-width:50%" role="alert">
+                            <?php echo $retour; ?>&nbsp<a href="./index.php?lang=<?= ($lang['LANG']); ?>" class="alert-link">Retour à l'acceuil</a>
+                        </div>
+                    </div>
+                    <!-- <a class="btn btn-secondary" href="./index.php?lang=<?= ($lang['LANG']); ?>"><?php echo $retour; ?></a> -->
                     <!-- <div class="group1">
                         <button type="submit" id="submit" class="submit-button">
                             <?php echo $lang['FORM_SUBMIT']; ?>
@@ -163,6 +106,10 @@ include './inc/formcontrol.php';
     </div>
 
     </main>
+    <?php
+    include './inc/formcontrol.php';
+
+    ?>
     <?php include("./footer.php") ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

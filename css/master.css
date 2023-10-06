@@ -169,7 +169,13 @@ main{
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     /* background-size:cover; */
+    background-image:url('../images/bodybg.jpg'); 
+    background-repeat: no-repeat; 
+    background-attachment:fixed;
+    background-size: cover;
+    /* max-width: 100%; */
     background-color: var(--light);
+    z-index: auto;
 }
 
 .backdrop{
@@ -190,7 +196,7 @@ main{
 
 .pres3{
     border-left: 7px solid #3d3d3d71;
-    border-bottom: 0.2rem solid #3d3d3d71;
+    border-bottom: 0.1rem solid #3d3d3d71;
     margin-left: 1vw;
     padding-left: 2%;
     margin-left: 1vw;
@@ -199,14 +205,14 @@ main{
 }
 
 .border-right{
-    border-right: 0.2rem solid #3d3d3d71;
-    border-bottom: 0.2rem solid #3d3d3d71;
+    border-right: 0.1rem solid #3d3d3d71;
+    border-bottom: 0.1rem solid #3d3d3d71;
     border-bottom-right-radius: 5px;
 }
 
 .border-left{
-    border-left:0.2rem solid #3d3d3d71;
-    border-bottom: 0.2rem solid #3d3d3d71;
+    border-left:0.1rem solid #3d3d3d71;
+    border-bottom: 0.1rem solid #3d3d3d71;
     border-bottom-left-radius: 5px;
 }
 
